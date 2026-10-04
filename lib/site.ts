@@ -9,6 +9,8 @@ export const SITE_TAGLINE = 'PC parts explained for the games you play';
 export const SITE_DESCRIPTION =
   'Plain-language guides to graphics cards, processors, memory, storage, power supplies and monitors for PC gaming.';
 export const SITE_URL_RESOLVED = SITE_URL;
+// Google Search Console verification code (the content value of the google-site-verification tag).
+export const GOOGLE_SITE_VERIFICATION = (process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || '').trim();
 // Public contact address. Set NEXT_PUBLIC_CONTACT_EMAIL to enable the Contact page.
 export const CONTACT_EMAIL = (process.env.NEXT_PUBLIC_CONTACT_EMAIL || '').trim();
 
