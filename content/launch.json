@@ -1066,6 +1066,226 @@
       "social_image": "/images/articles/gpu-requirements.webp",
       "reading_time": 2,
       "created_at": "2026-10-04T10:30:00Z"
+    },
+    {
+      "id": "861a9cd0-302b-43ec-a372-5728505cb490",
+      "title": "Before a GPU Upgrade: Check Case Clearance, Power and Connections",
+      "slug": "graphics-card-upgrade-fit-power-checklist",
+      "excerpt": "Avoid an expensive compatibility surprise by checking the exact board, your case and your power supply before ordering.",
+      "hero_image": "/images/editorial/nvidia.jpg",
+      "hero_image_alt": "Before a GPU Upgrade: Check Case Clearance, Power and Connections — official NVIDIA artwork",
+      "hero_image_caption": "Image: NVIDIA",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "A GPU upgrade is a system change, not just a replacement chip. Different boards built around the same graphics processor can use different coolers, occupy different numbers of slots and need different power connections. Match the exact product you plan to buy with the space and connections your PC provides."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Measure the available space",
+          "id": "measure-the-available-space"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Find the card’s length, height and slot thickness in its manufacturer specification.",
+            "Check your case’s GPU clearance with the current front fans or radiator installed.",
+            "Allow room for the power connector and the cable routing specified by the board maker.",
+            "Check whether nearby expansion cards or drive cages occupy the same space."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Do not treat a case’s maximum GPU length as the answer to every fit question. That figure may assume a different cooling layout. Measure your actual arrangement and keep a note of the board model and the installed components when checking with the retailer."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Match the power supply and cables",
+          "id": "match-the-power-supply-and-cables"
+        },
+        {
+          "type": "paragraph",
+          "text": "Read the card maker’s supply recommendation and connector instructions alongside the PSU manual. A wattage label alone does not identify the available cables. Use cables approved for that specific supply; a plug that fits is not evidence that a modular PSU cable from another model is compatible."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Confirm the display path",
+          "id": "confirm-the-display-path"
+        },
+        {
+          "type": "paragraph",
+          "text": "Check the card’s outputs and the inputs on your monitor. If an adapter is needed, verify the intended resolution and refresh-rate support rather than buying on connector shape alone. A graphics upgrade is also a good moment to check that the display cable is connected to the graphics card instead of the motherboard output."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Prepare a repeatable first test",
+          "id": "prepare-a-repeatable-first-test"
+        },
+        {
+          "type": "paragraph",
+          "text": "Write down one familiar game, its resolution and its graphics settings before changing hardware. Follow the manufacturer’s installation and driver instructions, then repeat that workload. This will give you a more useful starting comparison than changing the GPU, preset and resolution at the same time."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Official reference",
+          "id": "official-reference"
+        },
+        {
+          "type": "link",
+          "text": "NVIDIA: RTX 5070 installation and connector instructions",
+          "url": "https://www.nvidia.com/content/geforce-gtx/geforce-rtx-5070-user-guide-r1.pdf"
+        },
+        {
+          "type": "link",
+          "text": "Plan the power-supply budget",
+          "url": "/power/psu-wattage-for-gaming-pc"
+        }
+      ],
+      "author_id": "beb67239-148d-5ce0-afe7-39083c45382a",
+      "category_id": "d6fe093a-1ff2-5c8e-bd99-4aaf07def781",
+      "tags": [
+        "nvidia",
+        "amd",
+        "upgrades"
+      ],
+      "publish_date": "2026-10-04T00:00:00Z",
+      "updated_date": "2026-10-04T00:00:00Z",
+      "featured": false,
+      "trending": false,
+      "editor_choice": false,
+      "review_score": null,
+      "review_product": null,
+      "seo_title": "Before a GPU Upgrade: Check Case Clearance, Power and Connections",
+      "seo_description": "Avoid an expensive compatibility surprise by checking the exact board, your case and your power supply before ordering.",
+      "canonical_url": null,
+      "social_image": "/images/editorial/nvidia.jpg",
+      "reading_time": 2,
+      "created_at": "2026-10-04T14:00:00Z",
+      "takeaways": [
+        "Check the exact partner-board dimensions, not just the GPU family name.",
+        "Power-supply capacity and connector compatibility are separate checks.",
+        "Plan cable clearance and the monitor connection as part of the upgrade."
+      ]
+    },
+    {
+      "id": "e7e9589b-e158-4df9-ac7a-f4df851ecd66",
+      "title": "RAM Upgrade Checklist: Match the Board Before Choosing a Kit",
+      "slug": "ram-upgrade-motherboard-compatibility",
+      "excerpt": "Check memory generation, capacity, slots and profile support before buying a RAM upgrade for your gaming PC.",
+      "hero_image": "/images/articles/ddr4-vs-ddr5.webp",
+      "hero_image_alt": "Rigwise diagram comparing DDR4 and DDR5 memory",
+      "hero_image_caption": "Illustration: Rigwise",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "The first RAM question is what your motherboard accepts. A capacity upgrade is useful only if the memory generation, module format and installed configuration work together. Start with the motherboard model and manual, then compare kits. Do not select a kit using the processor’s brand alone."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Record the current configuration",
+          "id": "record-the-current-configuration"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Identify the motherboard or complete PC model.",
+            "Check the required memory generation and module format in its documentation.",
+            "Record total capacity and which slots are already occupied.",
+            "Check the maximum supported capacity and the recommended slot order."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A desktop memory kit and a laptop module can have the same advertised capacity while using different physical formats. Prebuilt PCs can also have configuration limits that differ from a retail motherboard with a similar chipset. Use the documentation for the exact system you own."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Choose the whole kit, not a matching sticker",
+          "id": "choose-the-whole-kit-not-a-matching-sticker"
+        },
+        {
+          "type": "paragraph",
+          "text": "When replacing memory, compare a complete kit sized for the intended configuration. Adding a second kit with a similar product name does not prove that all modules were validated together. The board maker’s memory list is a useful compatibility reference, particularly when considering a higher-capacity or higher-speed configuration."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Understand what a memory profile changes",
+          "id": "understand-what-a-memory-profile-changes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Intel describes XMP as a memory-overclocking profile for compatible systems. The advertised profile speed should not be confused with a universal default. Check profile support for your board, processor and kit, and keep the documentation for returning to the standard setting if the chosen profile is unstable."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Make a capacity decision from your workload",
+          "id": "make-a-capacity-decision-from-your-workload"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider the game’s published requirements and the other applications you keep open. A browser with many tabs, capture software and background tools form part of the real workload. More capacity will not automatically fix a graphics or processor limit, so identify the constraint before treating a larger kit as a guaranteed frame-rate upgrade."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "After installation",
+          "id": "after-installation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Follow the motherboard’s installation instructions, confirm the detected capacity and test the usual workload before changing additional settings. Keep a note of any configuration change so that troubleshooting has a clear starting point."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Official reference",
+          "id": "official-reference"
+        },
+        {
+          "type": "link",
+          "text": "Intel: XMP support and memory profiles",
+          "url": "https://www.intel.com/content/www/us/en/gaming/extreme-memory-profile-xmp.html"
+        },
+        {
+          "type": "link",
+          "text": "Understand DDR4 and DDR5",
+          "url": "/memory/ddr4-vs-ddr5-gaming"
+        }
+      ],
+      "author_id": "beb67239-148d-5ce0-afe7-39083c45382a",
+      "category_id": "a9ce399a-288b-547f-b08b-0cf0f0efdb18",
+      "tags": [
+        "intel",
+        "amd",
+        "upgrades"
+      ],
+      "publish_date": "2026-10-04T00:00:00Z",
+      "updated_date": "2026-10-04T00:00:00Z",
+      "featured": false,
+      "trending": false,
+      "editor_choice": false,
+      "review_score": null,
+      "review_product": null,
+      "seo_title": "RAM Upgrade Checklist: Match the Board Before Choosing a Kit",
+      "seo_description": "Check memory generation, capacity, slots and profile support before buying a RAM upgrade for your gaming PC.",
+      "canonical_url": null,
+      "social_image": "/images/articles/ddr4-vs-ddr5.webp",
+      "reading_time": 2,
+      "created_at": "2026-10-04T14:00:00Z",
+      "takeaways": [
+        "DDR4 and DDR5 are different platform requirements, not interchangeable upgrade options.",
+        "Check your exact motherboard’s supported capacity and memory list.",
+        "A profile such as XMP is an optional configuration, not the same as basic compatibility."
+      ]
     }
   ],
   "deals": [],

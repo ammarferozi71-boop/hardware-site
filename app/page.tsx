@@ -1,3 +1,4 @@
+import { DiscoveryPaths } from '@/components/editorial/DiscoveryPaths';
 import Link from 'next/link';
 import Image from 'next/image';
 import { getLatestArticles, getFeaturedArticles } from '@/lib/queries';
@@ -151,6 +152,7 @@ export default async function HomePage() {
         </div>
       </section>
 
+      <DiscoveryPaths />
       {lead && (
         <section className="mx-auto max-w-6xl px-4 pt-12 sm:px-6">
           <Link
@@ -164,7 +166,7 @@ export default async function HomePage() {
                 width={1600}
                 height={900}
                 priority
-                className="h-full w-full object-cover"
+                className="h-auto w-full self-center object-contain"
               />
             )}
             <div className="flex flex-col justify-center p-6 sm:p-10">
