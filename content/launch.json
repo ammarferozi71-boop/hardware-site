@@ -215,7 +215,7 @@
       "editor_choice": false,
       "review_score": null,
       "review_product": null,
-      "seo_title": "CPU Bottleneck Explained: Is Your Processor Limiting Your FPS?",
+      "seo_title": "CPU Bottleneck Explained: Is Your CPU Limiting FPS?",
       "seo_description": "A CPU bottleneck means your processor, not your graphics card, is limiting frame rate. How to check in a few minutes and what to do about it.",
       "canonical_url": null,
       "social_image": "/images/articles/cpu-bottleneck.webp",
@@ -467,6 +467,10 @@
         {
           "type": "paragraph",
           "text": "New games are large. Modern Warfare 4 lists 115 GB and Ace Combat 8 lists 125 GB. A 1 TB drive fills up quickly, so 2 TB is worth considering if you keep several big games installed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Storage is one part of the picture. For memory, see [16 GB vs 32 GB of RAM for gaming](/memory/16gb-vs-32gb-ram-gaming)."
         }
       ],
       "author_id": "beb67239-148d-5ce0-afe7-39083c45382a",
@@ -719,6 +723,10 @@
           "text": "A power supply is not the part to save money on. A failing one can take other components with it."
         },
         {
+          "type": "paragraph",
+          "text": "Not sure which card you need? See [what graphics card October 2026's big PC games need](/gpu/october-2026-games-gpu-requirements)."
+        },
+        {
           "type": "heading",
           "level": 2,
           "text": "Sources",
@@ -744,7 +752,7 @@
       "editor_choice": false,
       "review_score": null,
       "review_product": null,
-      "seo_title": "What PSU Wattage Do You Need for a Gaming PC? (RTX 50 Series)",
+      "seo_title": "What PSU Wattage Do You Need for a Gaming PC?",
       "seo_description": "Recommended power supply sizes for RTX 50 series graphics cards, from 650 W to 1000 W, and how to check your own PSU before a GPU upgrade.",
       "canonical_url": null,
       "social_image": "/images/articles/psu-wattage.webp",
@@ -904,7 +912,7 @@
       "id": "135e0765-11cd-432f-b33f-a1724e9c9e87",
       "title": "What Graphics Card Do October 2026's Big PC Games Need?",
       "slug": "october-2026-games-gpu-requirements",
-      "excerpt": "We compared the official PC requirements of five October 2026 releases. The RTX 2060 is the most common minimum and the RTX 3060 Ti the most common recommendation.",
+      "excerpt": "We compared the official PC requirements of five October 2026 releases. The RTX 2060 is the most common minimum, the RTX 3060 Ti the most recommended.",
       "hero_image": "/images/articles/gpu-requirements.webp",
       "hero_image_alt": "Table of minimum and recommended graphics cards for five October 2026 games",
       "hero_image_caption": "",
@@ -1060,8 +1068,8 @@
       "editor_choice": false,
       "review_score": null,
       "review_product": null,
-      "seo_title": "What GPU Do October 2026's Big PC Games Need? Minimum vs Recommended",
-      "seo_description": "We compared the official PC requirements of five October 2026 releases. The RTX 2060 is the most common minimum and the RTX 3060 Ti the most common recommendation.",
+      "seo_title": "What GPU Do October 2026's Big PC Games Need?",
+      "seo_description": "We compared the official PC requirements of five October 2026 releases. The RTX 2060 is the most common minimum, the RTX 3060 Ti the most recommended.",
       "canonical_url": null,
       "social_image": "/images/articles/gpu-requirements.webp",
       "reading_time": 2,
@@ -1071,7 +1079,7 @@
       "id": "9f356dac-5552-436f-b0bc-d27430cc426c",
       "title": "RTX 60 Series Release Date: Why Leaks Now Point to 2028",
       "slug": "rtx-60-series-release-date",
-      "excerpt": "Nvidia has not announced the RTX 60 series. Several leakers now say it has slipped to 2028. What has been reported, who said it and what it means if you need a GPU now.",
+      "excerpt": "Nvidia has not announced the RTX 60 series. Several leakers now say it has slipped to 2028. What was reported, by whom, and what to do if you need a GPU now.",
       "hero_image": "/images/articles/rtx-60-series-timeline.webp",
       "hero_image_alt": "Timeline of leaked next-generation graphics card timing: no new Nvidia generation in 2026, one AMD chip in 2027, RTX 60 series in 2028",
       "hero_image_caption": "",
@@ -1200,7 +1208,7 @@
       "review_score": null,
       "review_product": null,
       "seo_title": "RTX 60 Series Release Date: Leaks Point to 2028 (Rumor)",
-      "seo_description": "Nvidia has not announced the RTX 60 series. Several leakers now say it has slipped to 2028. What has been reported, who said it and what it means if you need a GPU now.",
+      "seo_description": "Nvidia has not announced the RTX 60 series. Several leakers now say it has slipped to 2028. What was reported, by whom, and what to do if you need a GPU now.",
       "canonical_url": null,
       "social_image": "/images/articles/rtx-60-series-timeline.webp",
       "reading_time": 2,

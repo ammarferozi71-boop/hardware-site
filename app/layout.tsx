@@ -14,7 +14,7 @@ const lexend = Lexend({
   display: 'swap',
 });
 
-export const dynamic = 'force-dynamic';
+// Pages are pre-rendered and refreshed every few minutes (see each page's revalidate value).
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL_RESOLVED),
