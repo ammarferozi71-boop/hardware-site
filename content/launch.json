@@ -1,0 +1,1073 @@
+{
+  "categories": [
+    {
+      "id": "d6fe093a-1ff2-5c8e-bd99-4aaf07def781",
+      "slug": "gpu",
+      "name": "Graphics cards",
+      "description": "What graphics card games ask for, and how to choose one for your resolution.",
+      "image_url": ""
+    },
+    {
+      "id": "d0b786f2-e09d-5a5b-bc5e-b593df064769",
+      "slug": "cpu",
+      "name": "Processors",
+      "description": "How the processor affects frame rate, and when an upgrade is worth it.",
+      "image_url": ""
+    },
+    {
+      "id": "a9ce399a-288b-547f-b08b-0cf0f0efdb18",
+      "slug": "memory",
+      "name": "Memory",
+      "description": "How much RAM games need and which type your PC uses.",
+      "image_url": ""
+    },
+    {
+      "id": "134675df-61dd-5bfe-bce8-0fb853bbfce8",
+      "slug": "storage",
+      "name": "Storage",
+      "description": "SSD types, speeds and how much space new games take.",
+      "image_url": ""
+    },
+    {
+      "id": "0a8569e7-44f1-51ba-a45f-9a3944bd6e1d",
+      "slug": "power",
+      "name": "Power supplies",
+      "description": "Choosing a power supply that is big enough for your graphics card.",
+      "image_url": ""
+    },
+    {
+      "id": "7164fa36-d28b-5c1e-a23f-98a6cdda07ce",
+      "slug": "monitors",
+      "name": "Monitors",
+      "description": "Refresh rate, resolution and the features that matter for gaming.",
+      "image_url": ""
+    }
+  ],
+  "topics": [
+    {
+      "id": "32ed6eb3-97b7-592a-8705-0590ed298eb3",
+      "slug": "nvidia",
+      "name": "Nvidia",
+      "description": "GeForce graphics cards and their power needs.",
+      "image_url": ""
+    },
+    {
+      "id": "4584b30e-ec0a-5c2a-b3a6-2c559fe757e8",
+      "slug": "amd",
+      "name": "AMD",
+      "description": "Radeon graphics cards and Ryzen platforms.",
+      "image_url": ""
+    },
+    {
+      "id": "19178e92-f772-5a6e-b940-0f51b5afbe60",
+      "slug": "intel",
+      "name": "Intel",
+      "description": "Core processors and Arc graphics cards.",
+      "image_url": ""
+    },
+    {
+      "id": "dbbb7ad7-cac4-5f50-bfad-a716f1a94c02",
+      "slug": "upgrades",
+      "name": "Upgrades",
+      "description": "Deciding what to upgrade and what to check first.",
+      "image_url": ""
+    },
+    {
+      "id": "873cceba-687f-5bad-9bdc-21caabdd41b1",
+      "slug": "requirements",
+      "name": "Game requirements",
+      "description": "What new games ask of your hardware.",
+      "image_url": ""
+    },
+    {
+      "id": "b67aba5d-c8d4-55f4-8804-6141a3d75dba",
+      "slug": "playstation",
+      "name": "PlayStation",
+      "description": "Storage and hardware notes for PS5 owners.",
+      "image_url": ""
+    }
+  ],
+  "authors": [
+    {
+      "id": "beb67239-148d-5ce0-afe7-39083c45382a",
+      "name": "Rigwise Editorial",
+      "slug": "rigwise-editorial",
+      "title": "PC hardware guides",
+      "bio": "The publication byline for Rigwise. Guides are written from manufacturer specifications and official game requirements, with sources linked where figures are quoted. We do not publish our own benchmark results.",
+      "avatar_url": "",
+      "created_at": "2026-10-04T08:00:00Z"
+    }
+  ],
+  "articles": [
+    {
+      "id": "328f6540-46f1-4631-bfb8-77d73d565a65",
+      "title": "CPU Bottleneck Explained: How to Tell if Your Processor Is Holding Back Your Games",
+      "slug": "cpu-bottleneck-explained",
+      "excerpt": "A CPU bottleneck means your processor, not your graphics card, is limiting frame rate. How to check in a few minutes and what to do about it.",
+      "hero_image": "/images/articles/cpu-bottleneck.webp",
+      "hero_image_alt": "Illustration of a PC limited by the processor at 1080p and by the graphics card at 4K",
+      "hero_image_caption": "",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "A CPU bottleneck happens when your processor cannot prepare frames as fast as your graphics card can draw them. **The sign is a graphics card that is not working at full load while your frame rate is lower than you want.**"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How to check",
+          "id": "how-to-check"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Start a game and open a monitoring overlay. The Xbox Game Bar (Windows + G) shows processor and graphics card usage.",
+            "Play a busy section for a few minutes.",
+            "Look at the graphics card usage."
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "What you see",
+            "What it means"
+          ],
+          "rows": [
+            [
+              "Graphics card usage near 100%",
+              "The graphics card is the limit. This is normal."
+            ],
+            [
+              "Graphics card usage well below 100%, frame rate low",
+              "The processor is likely the limit."
+            ],
+            [
+              "Graphics card usage well below 100%, frame rate at your cap",
+              "Nothing is wrong. A frame limit is holding it there."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Do not judge by overall processor usage alone. A game can be held back by one or two busy cores while the total looks low."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Why resolution changes the answer",
+          "id": "why-resolution-changes-the-answer"
+        },
+        {
+          "type": "paragraph",
+          "text": "At lower resolutions the graphics card finishes each frame quickly, so the processor becomes the limit. At higher resolutions the graphics card has more work to do and becomes the limit."
+        },
+        {
+          "type": "paragraph",
+          "text": "That is why the same PC can be processor-limited at 1080p and graphics-limited at 4K."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What you can do",
+          "id": "what-you-can-do"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Raise the resolution or graphics settings.** If the processor is the limit, this costs few frames and makes the game look better.",
+            "**Lower processor-heavy settings.** Crowd density, draw distance and physics detail load the processor more than the graphics card.",
+            "**Close background apps,** especially browsers with many tabs.",
+            "**Check your memory is running at its rated speed.** See [DDR4 vs DDR5 for gaming](/memory/ddr4-vs-ddr5-gaming) for how memory profiles work."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "When to upgrade the processor",
+          "id": "when-to-upgrade-the-processor"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider it when you are processor-limited in the games you play most, at the settings you want, and the steps above have not helped. Check which processors your motherboard supports first. A newer processor for the same socket is far cheaper than replacing the motherboard and memory as well."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "A bottleneck is not a fault",
+          "id": "a-bottleneck-is-not-a-fault"
+        },
+        {
+          "type": "paragraph",
+          "text": "Every PC has a limiting part in every game. It only matters when the frame rate is lower than you want."
+        }
+      ],
+      "author_id": "beb67239-148d-5ce0-afe7-39083c45382a",
+      "category_id": "d0b786f2-e09d-5a5b-bc5e-b593df064769",
+      "tags": [
+        "upgrades",
+        "intel",
+        "amd"
+      ],
+      "publish_date": "2026-10-03T09:00:00Z",
+      "updated_date": null,
+      "featured": false,
+      "trending": false,
+      "editor_choice": false,
+      "review_score": null,
+      "review_product": null,
+      "seo_title": "CPU Bottleneck Explained: Is Your Processor Limiting Your FPS?",
+      "seo_description": "A CPU bottleneck means your processor, not your graphics card, is limiting frame rate. How to check in a few minutes and what to do about it.",
+      "canonical_url": null,
+      "social_image": "/images/articles/cpu-bottleneck.webp",
+      "reading_time": 2,
+      "created_at": "2026-10-03T09:00:00Z"
+    },
+    {
+      "id": "6bfb4e7a-e75c-4a66-b703-71ac96b56776",
+      "title": "Monitor Refresh Rate Explained: 60 Hz, 144 Hz and 240 Hz for Gaming",
+      "slug": "refresh-rate-explained",
+      "excerpt": "Refresh rate is how many times per second a monitor updates. What 60, 144 and 240 Hz mean in practice, and why your graphics card has to keep up.",
+      "hero_image": "/images/articles/refresh-rate.webp",
+      "hero_image_alt": "Chart of time between new pictures at 60 Hz, 144 Hz and 240 Hz",
+      "hero_image_caption": "",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Refresh rate is the number of times your monitor updates the picture each second, measured in hertz. **A 144 Hz monitor can show up to 144 frames per second, but only if your PC produces that many.**"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What each refresh rate means",
+          "id": "what-each-refresh-rate-means"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Refresh rate",
+            "New picture every",
+            "Good for"
+          ],
+          "rows": [
+            [
+              "**60 Hz**",
+              "16.7 ms",
+              "Slower games, tight budgets"
+            ],
+            [
+              "**144 Hz**",
+              "6.9 ms",
+              "Most players. A clear step up in smoothness"
+            ],
+            [
+              "**240 Hz**",
+              "4.2 ms",
+              "Competitive shooters with a strong PC"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Your graphics card has to keep up",
+          "id": "your-graphics-card-has-to-keep-up"
+        },
+        {
+          "type": "paragraph",
+          "text": "A high refresh rate only helps when your frame rate is high as well. If your PC runs a game at 70 frames per second, a 240 Hz monitor shows 70 frames per second."
+        },
+        {
+          "type": "paragraph",
+          "text": "Before buying, check what frame rate you get in the games you play. Many games have a frame counter in their settings, and Steam can show one in its overlay."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The jump that matters most",
+          "id": "the-jump-that-matters-most"
+        },
+        {
+          "type": "paragraph",
+          "text": "Going from 60 Hz to 144 Hz is the change most people notice straight away. Going from 144 Hz to 240 Hz is a smaller step, and you need a much faster PC to make use of it."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Variable refresh rate",
+          "id": "variable-refresh-rate"
+        },
+        {
+          "type": "paragraph",
+          "text": "Frame rates move up and down while you play. **Variable refresh rate** lets the monitor match its updates to the frames your graphics card sends, which removes screen tearing. It is sold as **G-Sync** by Nvidia and **FreeSync** by AMD, and many monitors work with both."
+        },
+        {
+          "type": "paragraph",
+          "text": "It is worth having on any gaming monitor, and most models now include it."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Resolution comes into it too",
+          "id": "resolution-comes-into-it-too"
+        },
+        {
+          "type": "paragraph",
+          "text": "A higher resolution is harder to run. The same graphics card produces fewer frames at 1440p than at 1080p, and fewer again at 4K. Pick the resolution and refresh rate together:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**1080p at 144 Hz** suits mid-range graphics cards.",
+            "**1440p at 144 Hz** is a good balance for stronger cards.",
+            "**4K at high refresh rates** needs a high-end card."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "To see which cards new games ask for, read [what graphics card October 2026's big PC games need](/gpu/october-2026-games-gpu-requirements)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Turn it on in Windows",
+          "id": "turn-it-on-in-windows"
+        },
+        {
+          "type": "paragraph",
+          "text": "A new monitor often starts at 60 Hz. Open **Settings**, then **System**, **Display**, **Advanced display**, and choose the highest refresh rate. Use a DisplayPort cable or a recent HDMI cable, because older cables can limit the refresh rate."
+        }
+      ],
+      "author_id": "beb67239-148d-5ce0-afe7-39083c45382a",
+      "category_id": "7164fa36-d28b-5c1e-a23f-98a6cdda07ce",
+      "tags": [
+        "upgrades",
+        "nvidia",
+        "amd"
+      ],
+      "publish_date": "2026-10-03T11:00:00Z",
+      "updated_date": null,
+      "featured": false,
+      "trending": false,
+      "editor_choice": false,
+      "review_score": null,
+      "review_product": null,
+      "seo_title": "Monitor Refresh Rate Explained: 60 Hz vs 144 Hz vs 240 Hz",
+      "seo_description": "Refresh rate is how many times per second a monitor updates. What 60, 144 and 240 Hz mean in practice, and why your graphics card has to keep up.",
+      "canonical_url": null,
+      "social_image": "/images/articles/refresh-rate.webp",
+      "reading_time": 2,
+      "created_at": "2026-10-03T11:00:00Z"
+    },
+    {
+      "id": "5149bf5b-a550-4ff8-8e46-e765ea48fb1c",
+      "title": "NVMe vs SATA SSD for Gaming: Does the Faster Drive Matter?",
+      "slug": "nvme-vs-sata-ssd-gaming",
+      "excerpt": "New games require an SSD, but not always the fastest one. How SATA and NVMe drives compare, what the PS5 needs, and which to buy for a gaming PC.",
+      "hero_image": "/images/articles/nvme-vs-sata.webp",
+      "hero_image_alt": "Chart comparing top speeds of hard drives, SATA SSDs and NVMe SSDs",
+      "hero_image_caption": "",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "**Any SSD is a big step up from a hard drive, and many new games now require one.** An NVMe drive is faster than a SATA SSD on paper, but in most games today the difference in loading times is small."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How the drive types compare",
+          "id": "how-the-drive-types-compare"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Drive type",
+            "Typical top speed"
+          ],
+          "rows": [
+            [
+              "**Hard drive**",
+              "About 150 MB/s"
+            ],
+            [
+              "**SATA SSD**",
+              "About 550 MB/s"
+            ],
+            [
+              "**NVMe SSD, PCIe 3.0**",
+              "Up to about 3,500 MB/s"
+            ],
+            [
+              "**NVMe SSD, PCIe 4.0**",
+              "Up to about 7,000 MB/s"
+            ],
+            [
+              "**NVMe SSD, PCIe 5.0**",
+              "10,000 MB/s and higher"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "These are the fastest sequential speeds each type is built for. Real game loading depends on much more than this one number."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What games actually require",
+          "id": "what-games-actually-require"
+        },
+        {
+          "type": "paragraph",
+          "text": "Official requirements for new releases often say just \"SSD required\" without naming a type. Ace Combat 8, Modern Warfare 4 and Phantom Blade Zero all list an SSD. A SATA SSD meets that requirement."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Where NVMe helps",
+          "id": "where-nvme-helps"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Copying and installing large games** is much quicker.",
+            "**Games built around fast storage** can load and stream data faster on NVMe.",
+            "**Price:** NVMe drives now often cost about the same as SATA drives of the same size, so there is little reason to choose SATA for a new build."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What to buy",
+          "id": "what-to-buy"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**New PC or new drive:** buy an NVMe drive if your motherboard has an M.2 slot. A PCIe 4.0 drive is the sensible choice for most people.",
+            "**Older PC with no M.2 slot:** a SATA SSD is still a large upgrade over a hard drive.",
+            "**PCIe 5.0 drives** cost more and need good cooling. Games do not need them today."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "For PlayStation 5 owners",
+          "id": "for-playstation-5-owners"
+        },
+        {
+          "type": "paragraph",
+          "text": "The PS5's expansion slot takes an M.2 NVMe drive. Sony asks for a PCIe 4.0 drive with a read speed of 5,500 MB/s or faster, and recommends one with a heatsink."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How much space",
+          "id": "how-much-space"
+        },
+        {
+          "type": "paragraph",
+          "text": "New games are large. Modern Warfare 4 lists 115 GB and Ace Combat 8 lists 125 GB. A 1 TB drive fills up quickly, so 2 TB is worth considering if you keep several big games installed."
+        }
+      ],
+      "author_id": "beb67239-148d-5ce0-afe7-39083c45382a",
+      "category_id": "134675df-61dd-5bfe-bce8-0fb853bbfce8",
+      "tags": [
+        "upgrades",
+        "playstation",
+        "requirements"
+      ],
+      "publish_date": "2026-10-03T13:00:00Z",
+      "updated_date": null,
+      "featured": false,
+      "trending": true,
+      "editor_choice": false,
+      "review_score": null,
+      "review_product": null,
+      "seo_title": "NVMe vs SATA SSD for Gaming: Does a Faster Drive Matter?",
+      "seo_description": "New games require an SSD, but not always the fastest one. How SATA and NVMe drives compare, what the PS5 needs, and which to buy for a gaming PC.",
+      "canonical_url": null,
+      "social_image": "/images/articles/nvme-vs-sata.webp",
+      "reading_time": 2,
+      "created_at": "2026-10-03T13:00:00Z"
+    },
+    {
+      "id": "24543e51-b3b8-4611-89b1-45ace94ddff2",
+      "title": "DDR4 vs DDR5 for Gaming: Which One Does Your PC Use?",
+      "slug": "ddr4-vs-ddr5-gaming",
+      "excerpt": "DDR4 and DDR5 memory are not interchangeable. Which AMD and Intel platforms use which type, and what to check before buying more RAM.",
+      "hero_image": "/images/articles/ddr4-vs-ddr5.webp",
+      "hero_image_alt": "Table of AMD and Intel platforms and the memory type each one uses",
+      "hero_image_caption": "",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "**You cannot choose between DDR4 and DDR5 freely. Your motherboard decides.** The two types have different slots, so a DDR5 stick will not fit a DDR4 board and the other way round."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Which platforms use which memory",
+          "id": "which-platforms-use-which-memory"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Platform",
+            "Memory type"
+          ],
+          "rows": [
+            [
+              "**AMD AM4** (Ryzen 1000 to 5000)",
+              "DDR4"
+            ],
+            [
+              "**AMD AM5** (Ryzen 7000 and newer)",
+              "DDR5"
+            ],
+            [
+              "**Intel LGA1700** (12th to 14th gen Core)",
+              "DDR4 or DDR5, depending on the motherboard"
+            ],
+            [
+              "**Intel LGA1851** (Core Ultra 200S)",
+              "DDR5"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "On Intel LGA1700, each motherboard model supports one type only. Check the board's name or manual before buying."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How to check what you have now",
+          "id": "how-to-check-what-you-have-now"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Open **Task Manager**, go to the **Performance** tab and select **Memory**. The speed and slots used are shown there, and many systems show the type in the top corner.",
+            "Or look up your motherboard model on the maker's website. The memory type is listed in the specifications."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Is DDR5 faster for games?",
+          "id": "is-ddr5-faster-for-games"
+        },
+        {
+          "type": "paragraph",
+          "text": "DDR5 runs at higher speeds, and that can help frame rates in games that lean hard on the processor. For most players the difference is smaller than the gain from a better graphics card."
+        },
+        {
+          "type": "paragraph",
+          "text": "So the practical advice is simple:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Upgrading an existing PC:** buy more of the type your board already uses.",
+            "**Building a new PC:** current AMD and Intel platforms use DDR5, so that is what you will buy."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Turn on the memory profile",
+          "id": "turn-on-the-memory-profile"
+        },
+        {
+          "type": "paragraph",
+          "text": "New memory often runs at a slower default speed until you enable its profile in the motherboard settings. The profile is called **XMP** on Intel kits and **EXPO** on AMD kits. Without it you may not get the speed printed on the box."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How much to buy",
+          "id": "how-much-to-buy"
+        },
+        {
+          "type": "paragraph",
+          "text": "See [16 GB vs 32 GB of RAM for gaming](/memory/16gb-vs-32gb-ram-gaming) for what new games actually ask for."
+        }
+      ],
+      "author_id": "beb67239-148d-5ce0-afe7-39083c45382a",
+      "category_id": "a9ce399a-288b-547f-b08b-0cf0f0efdb18",
+      "tags": [
+        "amd",
+        "intel",
+        "upgrades"
+      ],
+      "publish_date": "2026-10-03T15:00:00Z",
+      "updated_date": null,
+      "featured": false,
+      "trending": false,
+      "editor_choice": false,
+      "review_score": null,
+      "review_product": null,
+      "seo_title": "DDR4 vs DDR5 for Gaming: Which One Does Your PC Use?",
+      "seo_description": "DDR4 and DDR5 memory are not interchangeable. Which AMD and Intel platforms use which type, and what to check before buying more RAM.",
+      "canonical_url": null,
+      "social_image": "/images/articles/ddr4-vs-ddr5.webp",
+      "reading_time": 1,
+      "created_at": "2026-10-03T15:00:00Z"
+    },
+    {
+      "id": "446da69e-576a-45d1-81c6-57da599b0185",
+      "title": "What Power Supply Wattage Do You Need for a Gaming PC?",
+      "slug": "psu-wattage-for-gaming-pc",
+      "excerpt": "Recommended power supply sizes for RTX 50 series graphics cards, from 650 W to 1000 W, and how to check your own PSU before a GPU upgrade.",
+      "hero_image": "/images/articles/psu-wattage.webp",
+      "hero_image_alt": "Chart of recommended power supply wattage for RTX 5070, 5070 Ti, 5080 and 5090",
+      "hero_image_caption": "",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Your graphics card decides most of your power supply needs. For Nvidia's RTX 50 series, the usual recommendations run from **650 W for an RTX 5070** to **1000 W for an RTX 5090**."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Recommended PSU size by graphics card",
+          "id": "recommended-psu-size-by-graphics-card"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Graphics card",
+            "Recommended PSU"
+          ],
+          "rows": [
+            [
+              "**RTX 5070**",
+              "650 W"
+            ],
+            [
+              "**RTX 5070 Ti**",
+              "750 W"
+            ],
+            [
+              "**RTX 5080**",
+              "850 W"
+            ],
+            [
+              "**RTX 5090**",
+              "1000 W"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "These are whole-system recommendations with a typical gaming CPU. Always confirm on the product page for your exact card, because some models from board makers ask for more."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Why the number is higher than the card's own power draw",
+          "id": "why-the-number-is-higher-than-the-cards-own-power-draw"
+        },
+        {
+          "type": "paragraph",
+          "text": "A power supply has to cover the whole PC, and graphics cards draw short bursts well above their rated power. Seasonic notes that the RTX 5090 is rated at 575 W, while independent testing has recorded very brief spikes far higher. The recommended wattage leaves room for those bursts."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How to check the PSU you already have",
+          "id": "how-to-check-the-psu-you-already-have"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Look for the label on the side of the power supply. It lists the total wattage.",
+            "If you bought a pre-built PC, check the maker's spec sheet for your model.",
+            "Do not rely on the efficiency badge. An 80 PLUS rating tells you how efficient the unit is, not how many watts it delivers."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Check the power connector too",
+          "id": "check-the-power-connector-too"
+        },
+        {
+          "type": "paragraph",
+          "text": "RTX 50 series cards use a 16-pin power connector called **12V-2x6**. Newer power supplies built to the ATX 3.1 standard have this cable built in. With an older PSU you use the adapter that comes with the card."
+        },
+        {
+          "type": "paragraph",
+          "text": "Push the connector in fully until it clicks, and avoid bending the cable sharply right at the plug."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Do you need to replace your PSU?",
+          "id": "do-you-need-to-replace-your-psu"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Your PSU meets the recommended wattage and is a few years old:** you are fine.",
+            "**It is 100 W or more below the recommendation:** replace it before installing the new card.",
+            "**You do not know the brand or it came with a very cheap case:** treat it as a risk and replace it."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A power supply is not the part to save money on. A failing one can take other components with it."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[Seasonic, how to calculate PSU power for RTX 50 series GPUs](https://seasonic.com/insights/how-to-calculate-psu-power-for-rtx-5090-gpus/)"
+          ]
+        }
+      ],
+      "author_id": "beb67239-148d-5ce0-afe7-39083c45382a",
+      "category_id": "0a8569e7-44f1-51ba-a45f-9a3944bd6e1d",
+      "tags": [
+        "nvidia",
+        "upgrades"
+      ],
+      "publish_date": "2026-10-04T07:00:00Z",
+      "updated_date": null,
+      "featured": true,
+      "trending": true,
+      "editor_choice": false,
+      "review_score": null,
+      "review_product": null,
+      "seo_title": "What PSU Wattage Do You Need for a Gaming PC? (RTX 50 Series)",
+      "seo_description": "Recommended power supply sizes for RTX 50 series graphics cards, from 650 W to 1000 W, and how to check your own PSU before a GPU upgrade.",
+      "canonical_url": null,
+      "social_image": "/images/articles/psu-wattage.webp",
+      "reading_time": 2,
+      "created_at": "2026-10-04T07:00:00Z"
+    },
+    {
+      "id": "97085fe7-f714-40fc-aef2-fa70dd999d91",
+      "title": "16 GB vs 32 GB of RAM for Gaming: What New Games Actually Ask For",
+      "slug": "16gb-vs-32gb-ram-gaming",
+      "excerpt": "16 GB of RAM still meets the recommended tier of most new games, but two October 2026 releases ask for 32 GB in their higher tiers. Here is how to decide.",
+      "hero_image": "/images/articles/ram-16-vs-32.webp",
+      "hero_image_alt": "Table of minimum and recommended RAM for five October 2026 games",
+      "hero_image_caption": "",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "**16 GB of RAM is still enough for most new games**, but 32 GB is starting to appear in official requirements. Of five big October 2026 releases we checked, two ask for 32 GB in a higher tier."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What five new games ask for",
+          "id": "what-five-new-games-ask-for"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Game",
+            "Minimum RAM",
+            "Recommended RAM",
+            "Highest tier"
+          ],
+          "rows": [
+            [
+              "**Call of Duty: Modern Warfare 4**",
+              "8 GB",
+              "16 GB",
+              "32 GB (ray tracing)"
+            ],
+            [
+              "**Ace Combat 8: Wings of Theve**",
+              "16 GB",
+              "32 GB",
+              "Not listed"
+            ],
+            [
+              "**Gears of War: E-Day**",
+              "12 GB",
+              "16 GB",
+              "16 GB (4K Ultra)"
+            ],
+            [
+              "**Phantom Blade Zero**",
+              "16 GB",
+              "16 GB",
+              "Not listed"
+            ],
+            [
+              "**Star Wars: Galactic Racer**",
+              "12 GB",
+              "See the Steam page",
+              "Not listed"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "When 16 GB is fine",
+          "id": "when-16-gb-is-fine"
+        },
+        {
+          "type": "list",
+          "items": [
+            "You play at the minimum or recommended tier of most games.",
+            "You close your browser and other apps while playing.",
+            "You are on a tight budget and your money is better spent on the graphics card."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "When 32 GB is worth it",
+          "id": "when-32-gb-is-worth-it"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A game you want lists it, as Ace Combat 8 does for its recommended tier.",
+            "You keep a browser, chat apps or streaming software open while you play.",
+            "You are building a new PC and want it to last several years."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "8 GB is no longer enough",
+          "id": "8-gb-is-no-longer-enough"
+        },
+        {
+          "type": "paragraph",
+          "text": "Only one of these five games lists 8 GB, and only as its minimum. If you have 8 GB, upgrading memory is one of the cheapest ways to make new games playable."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Before you buy more RAM",
+          "id": "before-you-buy-more-ram"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Check which type your motherboard uses.** DDR4 and DDR5 are not interchangeable. See [DDR4 vs DDR5 for gaming](/memory/ddr4-vs-ddr5-gaming).",
+            "**Buy a matched kit of two sticks.** Two sticks run in dual-channel mode, which is faster than one stick of the same total size.",
+            "**Avoid mixing old and new kits if you can.** Different kits do not always run reliably together at their rated speed."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[TalkEsport, Modern Warfare 4 PC specs](https://www.talkesport.com/news/modern-warfare-4-pc-specs-preload-date/)",
+            "[DSOGaming, Ace Combat 8 official PC requirements](https://www.dsogaming.com/news/ace-combat-8-wings-of-theve-gets-official-pc-requirements-will-have-denuvo/)",
+            "[KitGuru, Gears of War E-Day PC system requirements](https://www.kitguru.net/gaming/matthew-wilson/gears-of-war-e-day-pc-system-requirements-announced-2/)",
+            "[Steam, Phantom Blade Zero](https://store.steampowered.com/app/4115450/Phantom_Blade_Zero/)",
+            "[Steam, Star Wars Galactic Racer](https://store.steampowered.com/app/4078430/STAR_WARS_Galactic_Racer/)"
+          ]
+        }
+      ],
+      "author_id": "beb67239-148d-5ce0-afe7-39083c45382a",
+      "category_id": "a9ce399a-288b-547f-b08b-0cf0f0efdb18",
+      "tags": [
+        "requirements",
+        "upgrades"
+      ],
+      "publish_date": "2026-10-04T09:00:00Z",
+      "updated_date": null,
+      "featured": true,
+      "trending": true,
+      "editor_choice": false,
+      "review_score": null,
+      "review_product": null,
+      "seo_title": "16 GB vs 32 GB RAM for Gaming in 2026: What Games Ask For",
+      "seo_description": "16 GB of RAM still meets the recommended tier of most new games, but two October 2026 releases ask for 32 GB in their higher tiers. Here is how to decide.",
+      "canonical_url": null,
+      "social_image": "/images/articles/ram-16-vs-32.webp",
+      "reading_time": 1,
+      "created_at": "2026-10-04T09:00:00Z"
+    },
+    {
+      "id": "135e0765-11cd-432f-b33f-a1724e9c9e87",
+      "title": "What Graphics Card Do October 2026's Big PC Games Need?",
+      "slug": "october-2026-games-gpu-requirements",
+      "excerpt": "We compared the official PC requirements of five October 2026 releases. The RTX 2060 is the most common minimum and the RTX 3060 Ti the most common recommendation.",
+      "hero_image": "/images/articles/gpu-requirements.webp",
+      "hero_image_alt": "Table of minimum and recommended graphics cards for five October 2026 games",
+      "hero_image_caption": "",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "We lined up the official PC requirements of five big October 2026 releases. Two cards keep coming up: the **RTX 2060** as the minimum and the **RTX 3060 Ti** as the recommended card."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The requirements side by side",
+          "id": "the-requirements-side-by-side"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Game",
+            "Minimum GPU",
+            "Recommended GPU"
+          ],
+          "rows": [
+            [
+              "**Gears of War: E-Day**",
+              "RTX 2060 / RX 6600 / Arc A580",
+              "RTX 3060 Ti / RX 6700 XT / Arc B580"
+            ],
+            [
+              "**Phantom Blade Zero**",
+              "GTX 1660 / RX 5500 XT",
+              "RTX 3060 Ti / RX 6700 XT"
+            ],
+            [
+              "**Call of Duty: Modern Warfare 4**",
+              "GTX 970 / RX 470 / Arc A580",
+              "RTX 3060 Ti / RX 6600 XT / Arc B580"
+            ],
+            [
+              "**Ace Combat 8: Wings of Theve**",
+              "RTX 2060 / RX 6600 XT",
+              "RTX 3070 / RX 6800"
+            ],
+            [
+              "**Star Wars: Galactic Racer**",
+              "RTX 2060 / RX 5600 XT / Arc A580",
+              "See the Steam page"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What the pattern tells you",
+          "id": "what-the-pattern-tells-you"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**The RTX 2060 is the minimum in three of the five games.** If your card is older or slower than that, expect to be below the official minimum for much of this season.",
+            "**The RTX 3060 Ti is recommended in three of the five.** It is the closest thing to a \"safe\" card for this group of games at 1080p and 1440p.",
+            "**AMD's RX 6700 XT appears next to the RTX 3060 Ti twice.** That is the Radeon to compare against.",
+            "**Intel Arc is now listed by name.** The A580 shows up as a minimum three times and the B580 as a recommendation twice."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Read the small print on resolution",
+          "id": "read-the-small-print-on-resolution"
+        },
+        {
+          "type": "paragraph",
+          "text": "Recommended does not mean the same thing in every game. Ace Combat 8's recommended tier targets 1080p at 60 FPS on Medium with upscaling. Phantom Blade Zero's targets 1440p at 60 FPS with upscaling. Always check the resolution and frame rate each tier is aiming for."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "If you want ray tracing",
+          "id": "if-you-want-ray-tracing"
+        },
+        {
+          "type": "paragraph",
+          "text": "The ray tracing tiers ask for much newer cards:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Game",
+            "Ray tracing tier"
+          ],
+          "rows": [
+            [
+              "**Phantom Blade Zero**",
+              "RTX 5060 for ray tracing at 1080p, RTX 5080 for path tracing at 4K"
+            ],
+            [
+              "**Modern Warfare 4**",
+              "RTX 5070 Ti / RX 9070 XT"
+            ],
+            [
+              "**Gears of War: E-Day (4K Ultra)**",
+              "RTX 5070 Ti / RX 7900 XT"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What to do with this",
+          "id": "what-to-do-with-this"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Have an RTX 3060 Ti, RX 6700 XT or better?** You meet the recommended tier for most of these games.",
+            "**Have an RTX 2060 or similar?** You can run most of them at minimum settings. Plan for Low to Medium at 1080p.",
+            "**Have a GTX 10-series card or older?** Two of these games still list cards that old, but most do not."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Memory matters too. Two of these games ask for 32 GB of RAM in their higher tiers. See [16 GB vs 32 GB of RAM for gaming](/memory/16gb-vs-32gb-ram-gaming)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[DSOGaming, final PC requirements for Gears of War E-Day](https://www.dsogaming.com/news/here-are-the-final-pc-requirements-for-gears-of-war-e-day/)",
+            "[Steam, Phantom Blade Zero](https://store.steampowered.com/app/4115450/Phantom_Blade_Zero/)",
+            "[TalkEsport, Modern Warfare 4 PC specs](https://www.talkesport.com/news/modern-warfare-4-pc-specs-preload-date/)",
+            "[DSOGaming, Ace Combat 8 official PC requirements](https://www.dsogaming.com/news/ace-combat-8-wings-of-theve-gets-official-pc-requirements-will-have-denuvo/)",
+            "[Steam, Star Wars Galactic Racer](https://store.steampowered.com/app/4078430/STAR_WARS_Galactic_Racer/)"
+          ]
+        }
+      ],
+      "author_id": "beb67239-148d-5ce0-afe7-39083c45382a",
+      "category_id": "d6fe093a-1ff2-5c8e-bd99-4aaf07def781",
+      "tags": [
+        "requirements",
+        "nvidia",
+        "amd",
+        "intel"
+      ],
+      "publish_date": "2026-10-04T10:30:00Z",
+      "updated_date": null,
+      "featured": true,
+      "trending": true,
+      "editor_choice": false,
+      "review_score": null,
+      "review_product": null,
+      "seo_title": "What GPU Do October 2026's Big PC Games Need? Minimum vs Recommended",
+      "seo_description": "We compared the official PC requirements of five October 2026 releases. The RTX 2060 is the most common minimum and the RTX 3060 Ti the most common recommendation.",
+      "canonical_url": null,
+      "social_image": "/images/articles/gpu-requirements.webp",
+      "reading_time": 2,
+      "created_at": "2026-10-04T10:30:00Z"
+    }
+  ],
+  "deals": [],
+  "assets": {}
+}
