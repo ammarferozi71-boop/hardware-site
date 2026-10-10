@@ -79,6 +79,11 @@ export default function RootLayout({
           {`window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };`}
         </Script>
         <Script src="/_vercel/insights/script.js" strategy="afterInteractive" />
+        {/* Google Analytics (GA4) */}
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-7CVC4C0XRN" strategy="afterInteractive" />
+        <Script id="ga4-init" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-7CVC4C0XRN');`}
+        </Script>
       </body>
     </html>
   );
