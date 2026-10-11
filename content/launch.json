@@ -1650,6 +1650,155 @@
         "Check your exact motherboard’s supported capacity and memory list.",
         "A profile such as XMP is an optional configuration, not the same as basic compatibility."
       ]
+    },
+    {
+      "id": "79da7ad3-8faa-40af-a49d-ad02d414c55e",
+      "title": "Will a New Graphics Card Work in an Older Motherboard? PCIe 3.0, 4.0 and 5.0 Explained",
+      "slug": "new-graphics-card-old-motherboard-pcie-compatibility",
+      "excerpt": "A PCIe 5.0 graphics card can be used in a PCIe 4.0 slot, and Corsair says it could be used in PCIe 3.0 too. What is known, what is not, and what to check.",
+      "hero_image": "",
+      "hero_image_alt": "Will a New Graphics Card Work in an Older Motherboard? PCIe 3.0, 4.0 and 5.0 Explained",
+      "hero_image_caption": "",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "**Yes: a PCIe 5.0 graphics card can be used in a PCIe 4.0 motherboard, because the physical connection has not changed between generations, according to Corsair's explainer on the question.**  Corsair says the same card could also be used in a PCIe 3.0 motherboard, though it gives no figure for how much speed that costs. "
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The short answer by slot generation",
+          "id": "the-short-answer-by-slot-generation"
+        },
+        {
+          "type": "paragraph",
+          "text": "This table covers a current PCIe 5.0 graphics card in each slot generation. Every statement about PCIe 4.0 and 3.0 in it is Corsair's, a vendor, and none of it is a test of ours. "
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Your motherboard's slot",
+            "Does a PCIe 5.0 card work?",
+            "What Corsair says about speed"
+          ],
+          "rows": [
+            [
+              "**PCIe 5.0**",
+              "Yes, the card and slot are the same generation",
+              "Not applicable"
+            ],
+            [
+              "**PCIe 4.0**",
+              "Yes, the physical connection is the same",
+              "About 1% lower with Nvidia's latest cards, from testing Corsair does not name"
+            ],
+            [
+              "**PCIe 3.0**",
+              "Corsair says it could be used",
+              "No figure given; Corsair says the processor would likely be the bigger limit"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Source for the PCIe 4.0 and 3.0 rows: Corsair's explainer, which shows no publication date. "
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Why an older slot still takes a newer card",
+          "id": "why-an-older-slot-still-takes-a-newer-card"
+        },
+        {
+          "type": "paragraph",
+          "text": "The physical connection has not changed between PCIe generations, which is why a PCIe 5.0 card can go into a PCIe 4.0 motherboard.  Graphics cards typically use 16 lanes. "
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How much speed do you lose?",
+          "id": "how-much-speed-do-you-lose"
+        },
+        {
+          "type": "paragraph",
+          "text": "**PCIe 4.0:** Corsair puts the cost of moving from PCIe 5.0 to 4.0 at about 1% with Nvidia's latest cards.  It cites testing for that number but does not name the test or who ran it, so treat it as a vendor's summary and not a measured result you can look up. "
+        },
+        {
+          "type": "paragraph",
+          "text": "**PCIe 3.0:** there is no figure. Corsair gives PCIe 3.0 a single statement: the card could be used, and the processor would likely be the bigger limit.  In plain terms, Corsair expects the processor in a PCIe 3.0 system to hold it back more than the slot does. "
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What our source does not cover",
+          "id": "what-our-source-does-not-cover"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**No performance figure for PCIe 3.0.** The source we rely on gives none, so this page does not give one either.",
+            "**Nothing on cards that use 8 lanes.** The source describes graphics cards as typically using 16 lanes and says nothing about cards that use fewer.",
+            "**No named test.** The 1% figure for PCIe 4.0 comes with no named test source.",
+            "**No chip-maker statement.** Everything here comes from one vendor page, not from Nvidia, AMD or Intel."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What to check before you buy",
+          "id": "what-to-check-before-you-buy"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Which slot generation your motherboard has.** Look it up in the motherboard's manual or specification page, then use the table above to see where you stand.",
+            "**Your processor's age.** On a PCIe 3.0 board, Corsair expects the processor to be the bigger limit, so a new card alone may not give you the jump you are paying for.",
+            "**Your power supply.** Corsair's page tells readers to check theirs before fitting a new card.  Our guide to [power supply wattage for a gaming PC](/power/psu-wattage-for-gaming-pc) covers how.",
+            "**Space, cables and display connections.** These decide whether the card physically goes in and connects, and they are covered in our [graphics card upgrade checklist](/gpu/graphics-card-upgrade-fit-power-checklist)."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Should the slot stop you from upgrading?",
+          "id": "should-the-slot-stop-you-from-upgrading"
+        },
+        {
+          "type": "paragraph",
+          "text": "On a PCIe 4.0 board, no: going by Corsair's figure the difference is about 1%.  On a PCIe 3.0 board Corsair points to the processor, not the slot, as the likely bigger limit.  If you are on PCIe 3.0, look at the processor first and decide whether the card or the whole platform is the upgrade you need."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[Corsair, Does a PCIe 5.0 GPU work in a PCIe 4.0 motherboard?](https://www.corsair.com/ch/en/explorer/gamer/gaming-pcs/does-a-pcie-50-gpu-work-in-a-pcie-40-motherboard/)"
+          ]
+        }
+      ],
+      "author_id": "beb67239-148d-5ce0-afe7-39083c45382a",
+      "category_id": "d6fe093a-1ff2-5c8e-bd99-4aaf07def781",
+      "tags": [
+        "nvidia",
+        "upgrades"
+      ],
+      "publish_date": "2026-10-11T12:28:06Z",
+      "updated_date": null,
+      "featured": false,
+      "trending": false,
+      "editor_choice": false,
+      "review_score": null,
+      "review_product": null,
+      "seo_title": "New Graphics Card in an Older Motherboard: PCIe 3.0, 4.0, 5.0",
+      "seo_description": "A PCIe 5.0 graphics card can be used in a PCIe 4.0 slot, and Corsair says it could be used in PCIe 3.0 too. What is known, what is not, and what to check.",
+      "canonical_url": null,
+      "social_image": null,
+      "reading_time": 3,
+      "created_at": "2026-10-11T12:28:06Z"
     }
   ],
   "deals": [],
