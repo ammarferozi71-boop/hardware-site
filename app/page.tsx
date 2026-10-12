@@ -4,8 +4,14 @@ import Image from 'next/image';
 import { getLatestArticles, getFeaturedArticles } from '@/lib/queries';
 import { getArticleUrl, thumbFor, SITE_URL_RESOLVED, SITE_NAME } from '@/lib/site';
 import type { ArticleWithRelations } from '@/lib/types';
+import type { Metadata } from 'next';
 
 export const revalidate = 300;
+
+// One URL per page: the home page names its own canonical address.
+export const metadata: Metadata = {
+  alternates: { canonical: `${SITE_URL_RESOLVED}/` },
+};
 
 const PARTS = [
   {
