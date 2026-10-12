@@ -868,7 +868,7 @@
           "items": [
             "**Check which type your motherboard uses.** DDR4 and DDR5 are not interchangeable. See [DDR4 vs DDR5 for gaming](/memory/ddr4-vs-ddr5-gaming).",
             "**Buy a matched kit of two sticks.** Two sticks run in dual-channel mode, which is faster than one stick of the same total size.",
-            "**Avoid mixing old and new kits if you can.** Different kits do not always run reliably together at their rated speed."
+            "**Avoid mixing old and new kits if you can.** Different kits do not always run reliably together at their rated speed. Our guide to [two RAM sticks or four](/memory/two-vs-four-ram-sticks-add-or-replace) covers whether to add a kit or replace it."
           ]
         },
         {
@@ -1508,6 +1508,11 @@
           "type": "link",
           "text": "Plan the power-supply budget",
           "url": "/power/psu-wattage-for-gaming-pc"
+        },
+        {
+          "type": "link",
+          "text": "Check whether an older PCIe slot limits a new graphics card",
+          "url": "/gpu/new-graphics-card-old-motherboard-pcie-compatibility"
         }
       ],
       "author_id": "beb67239-148d-5ce0-afe7-39083c45382a",
@@ -1623,6 +1628,11 @@
           "type": "link",
           "text": "Understand DDR4 and DDR5",
           "url": "/memory/ddr4-vs-ddr5-gaming"
+        },
+        {
+          "type": "link",
+          "text": "Decide between adding two RAM sticks or replacing the kit",
+          "url": "/memory/two-vs-four-ram-sticks-add-or-replace"
         }
       ],
       "author_id": "beb67239-148d-5ce0-afe7-39083c45382a",
@@ -1656,9 +1666,9 @@
       "title": "Will a New Graphics Card Work in an Older Motherboard? PCIe 3.0, 4.0 and 5.0 Explained",
       "slug": "new-graphics-card-old-motherboard-pcie-compatibility",
       "excerpt": "A PCIe 5.0 graphics card can be used in a PCIe 4.0 slot, and Corsair says it could be used in PCIe 3.0 too. What is known, what is not, and what to check.",
-      "hero_image": "",
-      "hero_image_alt": "Will a New Graphics Card Work in an Older Motherboard? PCIe 3.0, 4.0 and 5.0 Explained",
-      "hero_image_caption": "",
+      "hero_image": "/images/articles/new-graphics-card-old-motherboard-pcie-compatibility-hero.webp",
+      "hero_image_alt": "Card summarising Corsair's explainer on a PCIe 5.0 graphics card in an older board: in PCIe 4.0 it works with about 1% less performance, Corsair's figure for Nvidia's latest cards from testing it does not name; in PCIe 3.0 it can be used with no figure given, and the processor would likely be the bigger limit",
+      "hero_image_caption": "Graphic: Rigwise, drawn from the Corsair facts on this page",
       "body": [
         {
           "type": "paragraph",
@@ -1796,7 +1806,7 @@
       "seo_title": "New Graphics Card in an Older Motherboard: PCIe 3.0, 4.0, 5.0",
       "seo_description": "A PCIe 5.0 graphics card can be used in a PCIe 4.0 slot, and Corsair says it could be used in PCIe 3.0 too. What is known, what is not, and what to check.",
       "canonical_url": null,
-      "social_image": null,
+      "social_image": "/images/articles/new-graphics-card-old-motherboard-pcie-compatibility-social.png",
       "reading_time": 3,
       "created_at": "2026-10-11T12:28:06Z"
     },
