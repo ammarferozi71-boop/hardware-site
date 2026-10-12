@@ -9,5 +9,16 @@
     "licence": "Original graphic owned by the site; no third-party image used",
     "credit": "Graphic: Rigwise",
     "retrieved": "2026-10-12"
+  },
+  {
+    "file": "/images/articles/new-graphics-card-old-motherboard-pcie-compatibility-hero.webp",
+    "also": [
+      "/images/articles/new-graphics-card-old-motherboard-pcie-compatibility-hero-thumb.webp",
+      "/images/articles/new-graphics-card-old-motherboard-pcie-compatibility-social.png"
+    ],
+    "source": "Drawn by the Rigwise engine from the page's own facts (Corsair explainer: does a PCIe 5.0 GPU work in a PCIe 4.0 motherboard)",
+    "licence": "Original graphic owned by the site; no third-party image used",
+    "credit": "Graphic: Rigwise",
+    "retrieved": "2026-10-12"
   }
 ]
