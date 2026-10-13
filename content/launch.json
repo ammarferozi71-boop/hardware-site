@@ -1959,6 +1959,234 @@
       "social_image": "/images/articles/two-vs-four-ram-sticks-add-or-replace-social.png",
       "reading_time": 3,
       "created_at": "2026-10-12T14:50:01Z"
+    },
+    {
+      "id": "173aa9bf-f216-4997-aa85-8fc250c8cec1",
+      "title": "Which DDR5 Speed to Buy for Gaming: What 6000 and CL30 Mean",
+      "slug": "which-ddr5-speed-to-buy-6000-cl30-explained",
+      "excerpt": "What the 6000 and CL30 on a DDR5 kit mean, how to turn them into one latency figure, and the memory speeds AMD and Intel list for their processors.",
+      "hero_image": "/images/articles/which-ddr5-speed-to-buy-6000-cl30-explained-hero.webp",
+      "hero_image_alt": "Graphic showing DDR5 latency worked out with Kingston's formula: 6000 CL30 and 7600 CL38 both come to 10.0 ns, 6000 CL36 to 12.0 ns",
+      "hero_image_caption": "Graphic: Rigwise, calculated with Kingston's published CAS latency formula",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "**A DDR5 label such as 6000 CL30 gives two numbers: the speed in MT/s and the CAS latency (CL).** **Read them together, then check the speed against what your processor's maker lists.** Kingston describes CAS latency as the time your RAM takes to start delivering data after the processor asks for it. It gives a formula that turns both numbers into one latency figure in nanoseconds."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Turn the label into one number",
+          "id": "turn-the-label-into-one-number"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kingston's formula is CAS latency × (2000 ÷ speed in MT/s) = latency in nanoseconds. Fierce PC, a UK system builder, uses the same calculation. For a 6000 CL30 kit that gives 30 × (2000 ÷ 6000) = 10 ns."
+        },
+        {
+          "type": "paragraph",
+          "text": "The table applies the same formula to example labels. A lower figure means the memory starts delivering data sooner; it is not a frame-rate figure."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Label on the box",
+            "Calculation",
+            "Latency"
+          ],
+          "rows": [
+            [
+              "DDR5-4800 CL40",
+              "40 × (2000 ÷ 4800)",
+              "16.7 ns"
+            ],
+            [
+              "DDR5-5600 CL40",
+              "40 × (2000 ÷ 5600)",
+              "14.3 ns"
+            ],
+            [
+              "DDR5-5600 CL36",
+              "36 × (2000 ÷ 5600)",
+              "12.9 ns"
+            ],
+            [
+              "DDR5-6000 CL36",
+              "36 × (2000 ÷ 6000)",
+              "12.0 ns"
+            ],
+            [
+              "DDR5-6000 CL30",
+              "30 × (2000 ÷ 6000)",
+              "10.0 ns"
+            ],
+            [
+              "DDR5-6400 CL32",
+              "32 × (2000 ÷ 6400)",
+              "10.0 ns"
+            ],
+            [
+              "DDR5-7600 CL38",
+              "38 × (2000 ÷ 7600)",
+              "10.0 ns"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "*Calculated with Kingston's published formula. Figures rounded to one decimal place.*"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Speed or latency: which matters more",
+          "id": "speed-or-latency-which-matters-more"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kingston says higher-speed memory often comes with a higher CAS latency, and that two kits with very different CL values can deliver similar performance depending on their speed. Its 7600 CL38 example works out to about 10 ns, the same as 6000 CL30."
+        },
+        {
+          "type": "paragraph",
+          "text": "For gaming, Kingston says memory speed usually has the bigger impact overall, though a slightly slower kit with lower latency can sometimes perform better in practice. It also says the difference between DDR5-6000 CL28 and CL30 may be negligible at 1440p or 4K. Kingston gives no frame-rate figures for these statements on the page read."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What AMD and Intel list for their processors",
+          "id": "what-amd-and-intel-list-for-their-processors"
+        },
+        {
+          "type": "paragraph",
+          "text": "Before choosing a speed, check the figure your processor's maker lists. As of 11 Oct 2026, these are the maximum memory speeds listed on the AMD and Intel pages read for this guide."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Processor",
+            "Listed maximum memory speed",
+            "Source"
+          ],
+          "rows": [
+            [
+              "AMD Ryzen 5 9500F",
+              "DDR5-5600 with two modules, DDR5-3600 with four",
+              "AMD product page"
+            ],
+            [
+              "AMD Ryzen 5 9600X",
+              "DDR5-5600 with two modules, DDR5-3600 with four",
+              "AMD store page"
+            ],
+            [
+              "Intel Core Ultra (Series 2) desktop",
+              "DDR5 up to 6400 MT/s",
+              "Intel support article (last reviewed 04/03/2025)"
+            ],
+            [
+              "Intel 14th Gen Core i9 and i7 desktop",
+              "DDR5 up to 5600 MT/s",
+              "Intel support article (last reviewed 04/03/2025)"
+            ],
+            [
+              "Intel 12th Gen desktop",
+              "DDR5 up to 4800 MT/s",
+              "Intel support article (last reviewed 04/03/2025)"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "AMD lists these figures under \"Max Memory Speed\": DDR5-5600 for both 2x1R and 2x2R, and DDR5-3600 for both 4x1R and 4x2R. Intel's article gives one speed per processor family and does not give separate figures for two and four modules. Intel's article does not mention memory profiles, and AMD's 9500F page has no footnote explaining the difference between the listed figures."
+        },
+        {
+          "type": "paragraph",
+          "text": "Intel's support article was last reviewed on 04/03/2025. PCPer reported on 23 March 2026, after that review date, that Intel's Core Ultra 200S Plus processors, such as the 270K Plus and 250K Plus, officially support DDR5 at 7200 MT/s. Fierce PC also says Intel's 2026 refresh parts are rated for 7200. If you have one of the newer Intel chips, check Intel's page for your exact model."
+        },
+        {
+          "type": "paragraph",
+          "text": "So a DDR5-6000 kit is rated above the DDR5-5600 that AMD lists for the Ryzen 5 9500F and 9600X, and below the 6400 MT/s that Intel's support article lists for Core Ultra (Series 2). Our [DDR4 vs DDR5 guide](/memory/ddr4-vs-ddr5-gaming) explains how to turn on a kit's memory profile."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How to choose, step by step",
+          "id": "how-to-choose-step-by-step"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Find your processor's listed speed.** Open its page on AMD's or Intel's site and note the maximum memory speed, and whether it lists a separate figure for four modules, as the two Ryzen 5 pages do. Intel's article gives one figure per processor family.",
+            "**Decide on two or four modules.** On the Ryzen 5 9500F and 9600X, AMD lists DDR5-5600 for two modules and DDR5-3600 for four. Our [two vs four RAM sticks guide](/memory/two-vs-four-ram-sticks-add-or-replace) covers that choice.",
+            "**Compare kits by latency in nanoseconds, not CL alone.** Work out CL × (2000 ÷ speed) for each kit; a higher CL at a higher speed can give the same figure.",
+            "**Check the kit against your motherboard.** Our [RAM upgrade checklist](/memory/ram-upgrade-motherboard-compatibility) walks through the board's own support list, and the [16 GB vs 32 GB guide](/memory/16gb-vs-32gb-ram-gaming) covers how much to buy."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Common questions",
+          "id": "common-questions"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Is 6000 CL30 a good DDR5 kit for gaming?",
+          "id": "is-6000-cl30-a-good-ddr5-kit-for-gaming"
+        },
+        {
+          "type": "paragraph",
+          "text": "Its latency works out to 10 ns, lower than a 6000 CL36 kit at 12 ns. Fierce PC calls DDR5-6000 CL30 the answer for most gaming builds, a builder's recommendation rather than a maker's figure. Check your processor's listed speed first: AMD lists DDR5-5600 as the maximum for the Ryzen 5 9500F and 9600X."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Is a lower CL always better?",
+          "id": "is-a-lower-cl-always-better"
+        },
+        {
+          "type": "paragraph",
+          "text": "Not on its own. Kingston says higher-speed kits often carry a higher CL, and a 7600 CL38 kit works out to about the same latency as 6000 CL30."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[Kingston, CAS latency (CL) RAM timing explained](https://www.kingston.com/en/blog/gaming/cas-latency-cl-ram-timing-explained)",
+            "[Fierce PC, DDR5 for gaming](https://www.fiercepc.co.uk/gaming-pcs/buyer-guides/ddr5-for-gaming)",
+            "[AMD, Ryzen 5 9500F specifications](https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9500F.html)",
+            "[AMD store, Ryzen 5 9600X specifications](https://shop-us-en.amd.com/amd-ryzen-5-9600x-processor)",
+            "[Intel, Supported Memory Type for Intel Core and Intel Core Ultra Desktop Processors](https://www.intel.com/content/www/us/en/support/articles/000094585/processors.html)"
+          ]
+        }
+      ],
+      "author_id": "beb67239-148d-5ce0-afe7-39083c45382a",
+      "category_id": "a9ce399a-288b-547f-b08b-0cf0f0efdb18",
+      "tags": [
+        "ram",
+        "ddr5",
+        "amd",
+        "intel",
+        "upgrade"
+      ],
+      "publish_date": "2026-10-13T11:30:52Z",
+      "updated_date": null,
+      "featured": false,
+      "trending": false,
+      "editor_choice": false,
+      "review_score": null,
+      "review_product": null,
+      "seo_title": "Which DDR5 Speed to Buy? 6000 and CL30 Explained | Rigwise",
+      "seo_description": "What the 6000 and CL30 on a DDR5 kit mean, how to turn them into one latency figure, and the memory speeds AMD and Intel list for their processors.",
+      "canonical_url": null,
+      "social_image": "/images/articles/which-ddr5-speed-to-buy-6000-cl30-explained-social.png",
+      "reading_time": 4,
+      "created_at": "2026-10-13T11:30:52Z"
     }
   ],
   "deals": [],
