@@ -1665,14 +1665,14 @@
       "id": "79da7ad3-8faa-40af-a49d-ad02d414c55e",
       "title": "Will a New Graphics Card Work in an Older Motherboard? PCIe 3.0, 4.0 and 5.0 Explained",
       "slug": "new-graphics-card-old-motherboard-pcie-compatibility",
-      "excerpt": "A PCIe 5.0 graphics card can be used in a PCIe 4.0 slot, and Corsair says it could be used in PCIe 3.0 too. What is known, what is not, and what to check.",
+      "excerpt": "A PCIe 5.0 graphics card works in a PCIe 4.0 or 3.0 slot. How much speed each older slot costs, from a GamersNexus RTX 5090 test, and what to check.",
       "hero_image": "/images/articles/new-graphics-card-old-motherboard-pcie-compatibility-hero.webp",
-      "hero_image_alt": "Card summarising Corsair's explainer on a PCIe 5.0 graphics card in an older board: in PCIe 4.0 it works with about 1% less performance, Corsair's figure for Nvidia's latest cards from testing it does not name; in PCIe 3.0 it can be used with no figure given, and the processor would likely be the bigger limit",
-      "hero_image_caption": "Graphic: Rigwise, drawn from the Corsair facts on this page",
+      "hero_image_alt": "Rigwise graphic: speed cost of a PCIe 5.0 graphics card in older slots from a GamersNexus RTX 5090 test at x16: 1.7% on PCIe 4.0 in Black Myth: Wukong at 1080p, 1 to 4% on PCIe 3.0; PCIe 3.0 matters most for x4 or x8 cards",
+      "hero_image_caption": "Graphic: Rigwise, made from the GamersNexus test cited on this page",
       "body": [
         {
           "type": "paragraph",
-          "text": "**Yes: a PCIe 5.0 graphics card can be used in a PCIe 4.0 motherboard, because the physical connection has not changed between generations, according to Corsair's explainer on the question.**  Corsair says the same card could also be used in a PCIe 3.0 motherboard, though it gives no figure for how much speed that costs. "
+          "text": "**Yes: a PCIe 5.0 graphics card can be used in a PCIe 4.0 motherboard, because the physical connection has not changed between generations, according to Corsair's explainer on the question.**  Corsair says the same card could also be used in a PCIe 3.0 motherboard.  In GamersNexus's test of an RTX 5090, the gap between PCIe 5.0 and PCIe 3.0 at x16 was 1 to 4%. "
         },
         {
           "type": "heading",
@@ -1681,37 +1681,28 @@
           "id": "the-short-answer-by-slot-generation"
         },
         {
-          "type": "paragraph",
-          "text": "This table covers a current PCIe 5.0 graphics card in each slot generation. Every statement about PCIe 4.0 and 3.0 in it is Corsair's, a vendor, and none of it is a test of ours. "
-        },
-        {
           "type": "table",
           "headers": [
             "Your motherboard's slot",
             "Does a PCIe 5.0 card work?",
-            "What Corsair says about speed"
+            "Speed cost against PCIe 5.0, as reported"
           ],
           "rows": [
             [
-              "**PCIe 5.0**",
-              "Yes, the card and slot are the same generation",
-              "Not applicable"
-            ],
-            [
               "**PCIe 4.0**",
-              "Yes, the physical connection is the same",
-              "About 1% lower with Nvidia's latest cards, from testing Corsair does not name"
+              "Yes, the physical connection is the same (Corsair)",
+              "1.7% in Black Myth: Wukong at 1080p (GamersNexus, RTX 5090 at x16)"
             ],
             [
               "**PCIe 3.0**",
-              "Corsair says it could be used",
-              "No figure given; Corsair says the processor would likely be the bigger limit"
+              "Yes, Corsair says it could be used",
+              "1 to 4% (GamersNexus, RTX 5090 at x16)"
             ]
           ]
         },
         {
           "type": "paragraph",
-          "text": "Source for the PCIe 4.0 and 3.0 rows: Corsair's explainer, which shows no publication date. "
+          "text": "Sources: Corsair's explainer for whether the card works, and GamersNexus's RTX 5090 test, published on 13 February 2025, for the speed figures.  Neither is a test of ours."
         },
         {
           "type": "heading",
@@ -1731,26 +1722,15 @@
         },
         {
           "type": "paragraph",
-          "text": "**PCIe 4.0:** Corsair puts the cost of moving from PCIe 5.0 to 4.0 at about 1% with Nvidia's latest cards.  It cites testing for that number but does not name the test or who ran it, so treat it as a vendor's summary and not a measured result you can look up. "
+          "text": "**PCIe 4.0:** in GamersNexus's RTX 5090 test, Black Myth: Wukong at 1080p, the game with its widest PCIe 5.0 to 3.0 spread, ran 1.7% faster on PCIe 5.0 than on PCIe 4.0. "
         },
         {
           "type": "paragraph",
-          "text": "**PCIe 3.0:** there is no figure. Corsair gives PCIe 3.0 a single statement: the card could be used, and the processor would likely be the bigger limit.  In plain terms, Corsair expects the processor in a PCIe 3.0 system to hold it back more than the slot does. "
+          "text": "**PCIe 3.0:** GamersNexus ran an RTX 5090 at PCIe 5.0, 4.0 and 3.0 x16 and measured 1 to 4% between Gen5 and Gen3.  Its largest gap was about 4%, in Black Myth: Wukong at 1080p.  Corsair adds that on a PCIe 3.0 board the processor would likely be the bigger limit. "
         },
         {
-          "type": "heading",
-          "level": 2,
-          "text": "What our source does not cover",
-          "id": "what-our-source-does-not-cover"
-        },
-        {
-          "type": "list",
-          "items": [
-            "**No performance figure for PCIe 3.0.** The source we rely on gives none, so this page does not give one either.",
-            "**Nothing on cards that use 8 lanes.** The source describes graphics cards as typically using 16 lanes and says nothing about cards that use fewer.",
-            "**No named test.** The 1% figure for PCIe 4.0 comes with no named test source.",
-            "**No chip-maker statement.** Everything here comes from one vendor page, not from Nvidia, AMD or Intel."
-          ]
+          "type": "paragraph",
+          "text": "**Cards with fewer lanes:** GamersNexus notes that its PCIe 3.0 result would matter most for cards wired at x4 or x8, such as the RX 6500 XT, rather than a fully wired x16 card like the RTX 5090.  Its 1 to 4% figure is for a x16 card only. "
         },
         {
           "type": "heading",
@@ -1762,9 +1742,10 @@
           "type": "list",
           "items": [
             "**Which slot generation your motherboard has.** Look it up in the motherboard's manual or specification page, then use the table above to see where you stand.",
-            "**Your processor's age.** On a PCIe 3.0 board, Corsair expects the processor to be the bigger limit, so a new card alone may not give you the jump you are paying for.",
+            "**How many lanes the card uses.** The 1 to 4% figure is for a x16 card; GamersNexus says the PCIe 3.0 result would matter most for x4 and x8 cards.",
+            "**Your processor's age.** On a PCIe 3.0 board, Corsair expects the processor to be the bigger limit.",
             "**Your power supply.** Corsair's page tells readers to check theirs before fitting a new card.  Our guide to [power supply wattage for a gaming PC](/power/psu-wattage-for-gaming-pc) covers how.",
-            "**Space, cables and display connections.** These decide whether the card physically goes in and connects, and they are covered in our [graphics card upgrade checklist](/gpu/graphics-card-upgrade-fit-power-checklist)."
+            "**Space, cables and display connections.** See our [graphics card upgrade checklist](/gpu/graphics-card-upgrade-fit-power-checklist)."
           ]
         },
         {
@@ -1775,7 +1756,7 @@
         },
         {
           "type": "paragraph",
-          "text": "On a PCIe 4.0 board, no: going by Corsair's figure the difference is about 1%.  On a PCIe 3.0 board Corsair points to the processor, not the slot, as the likely bigger limit.  If you are on PCIe 3.0, look at the processor first and decide whether the card or the whole platform is the upgrade you need."
+          "text": "With a x16 card, the cost GamersNexus measured was small: 1 to 4% between PCIe 5.0 and 3.0 for an RTX 5090, and 1.7% between 5.0 and 4.0 in Black Myth: Wukong at 1080p, the game with its widest PCIe 5.0 to 3.0 spread.  On a PCIe 3.0 board Corsair points to the processor as the likely bigger limit, so look at the processor first and decide whether the card or the whole platform is the upgrade you need."
         },
         {
           "type": "heading",
@@ -1786,7 +1767,8 @@
         {
           "type": "list",
           "items": [
-            "[Corsair, Does a PCIe 5.0 GPU work in a PCIe 4.0 motherboard?](https://www.corsair.com/ch/en/explorer/gamer/gaming-pcs/does-a-pcie-50-gpu-work-in-a-pcie-40-motherboard/)"
+            "[Corsair, Does a PCIe 5.0 GPU work in a PCIe 4.0 motherboard?](https://www.corsair.com/ch/en/explorer/gamer/gaming-pcs/does-a-pcie-50-gpu-work-in-a-pcie-40-motherboard/)",
+            "[GamersNexus, NVIDIA RTX 5090 PCIe 5.0 vs. 4.0 vs. 3.0 x16 scaling benchmarks (13 Feb 2025)](https://gamersnexus.net/gpus/nvidia-rtx-5090-pcie-50-vs-40-vs-30-x16-scaling-benchmarks)"
           ]
         }
       ],
@@ -1797,17 +1779,17 @@
         "upgrades"
       ],
       "publish_date": "2026-10-11T12:28:06Z",
-      "updated_date": null,
+      "updated_date": "2026-10-14T16:14:47Z",
       "featured": false,
       "trending": false,
       "editor_choice": false,
       "review_score": null,
       "review_product": null,
-      "seo_title": "New Graphics Card in an Older Motherboard: PCIe 3.0, 4.0, 5.0",
-      "seo_description": "A PCIe 5.0 graphics card can be used in a PCIe 4.0 slot, and Corsair says it could be used in PCIe 3.0 too. What is known, what is not, and what to check.",
+      "seo_title": "New GPU in an Older Motherboard: PCIe 3.0 to 5.0 | Rigwise",
+      "seo_description": "A PCIe 5.0 graphics card works in a PCIe 4.0 or 3.0 slot. How much speed each older slot costs, from a GamersNexus RTX 5090 test, and what to check.",
       "canonical_url": null,
       "social_image": "/images/articles/new-graphics-card-old-motherboard-pcie-compatibility-social.png",
-      "reading_time": 3,
+      "reading_time": 2,
       "created_at": "2026-10-11T12:28:06Z"
     },
     {
