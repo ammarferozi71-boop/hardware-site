@@ -2187,6 +2187,142 @@
       "social_image": "/images/articles/which-ddr5-speed-to-buy-6000-cl30-explained-social.png",
       "reading_time": 4,
       "created_at": "2026-10-13T11:30:52Z"
+    },
+    {
+      "id": "6db32b8e-86c1-4e4a-a2fb-d85c5725b941",
+      "title": "12V-2x6 vs 12VHPWR: Does a New Graphics Card Need a New Power Supply?",
+      "slug": "12v-2x6-vs-12vhpwr-new-power-supply",
+      "excerpt": "What changed from 12VHPWR to 12V-2x6, whether your existing cable and ATX 3.0 power supply still work, and what to check before you plug in.",
+      "hero_image": "/images/articles/12v-2x6-vs-12vhpwr-new-power-supply-hero.webp",
+      "hero_image_alt": "Rigwise graphic: Corsair says an ATX 3.0 power supply with a 12VHPWR cable works with RTX 50-series cards, and that 12V-2x6 changed the connector pins",
+      "hero_image_caption": "Graphic: Rigwise. Sources: Corsair, NVIDIA",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "**Corsair says you do not need an ATX 3.1 power supply to run an RTX 50-series graphics card, and that a 12VHPWR cable on an ATX 3.0 unit works.**  It also says existing 12VHPWR cables and adapters work with the newer 12V-2x6 connector. "
+        },
+        {
+          "type": "paragraph",
+          "text": "This guide uses three Corsair explainers and NVIDIA's RTX 5080 Founders Edition quick start guide, each credited where it is used. None of the Corsair pages shows a date.   "
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What changed from 12VHPWR to 12V-2x6",
+          "id": "what-changed-from-12vhpwr-to-12v-2x6"
+        },
+        {
+          "type": "paragraph",
+          "text": "Corsair says 12V-2x6 is not a new cable but a change to the pins in the socket.  In the new connector the sensing pins are shorter (1.5 mm) and the conductor terminals are 0.25 mm longer, and Corsair gives the reason as more reliability.  Corsair also says there is no difference between a 12VHPWR and a 12V-2x6 cable. "
+        },
+        {
+          "type": "paragraph",
+          "text": "Corsair's own pages differ on where the change was made: one says the graphics card and the power supply side, another says only the connectors on the graphics card side.  "
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Will your current power supply work?",
+          "id": "will-your-current-power-supply-work"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Your situation",
+            "What the maker says",
+            "Source"
+          ],
+          "rows": [
+            [
+              "ATX 3.0 power supply with a 12VHPWR cable, RTX 50-series card",
+              "\"12VHPWR on ATX 3.0 will work just fine\"",
+              "Corsair"
+            ],
+            [
+              "Existing 12VHPWR cable or adapter, card with a 12V-2x6 connector",
+              "Works with the new connector",
+              "Corsair"
+            ],
+            [
+              "Choosing between ATX 3.0 and ATX 3.1",
+              "ATX 3.1's main benefit is that it specifies the 12V-2x6 connector; you do not need it to run a 50-series card",
+              "Corsair"
+            ],
+            [
+              "Older power supply without a 16-pin cable, RTX 5080 Founders Edition",
+              "Use the included NVIDIA adapter with at least three PCIe 8-pin cables",
+              "NVIDIA"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Corsair says all 50-series graphics cards have a 12V-2x6 connector and can also take a 12VHPWR cable or two 8-pin to 16-pin.  NVIDIA's RTX 5080 Founders Edition guide asks for at least three PCIe 8-pin cables when you use its adapter, so check the guide for your exact card. "
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Power rating still matters",
+          "id": "power-rating-still-matters"
+        },
+        {
+          "type": "paragraph",
+          "text": "Corsair says both the cable and the power supply must be able to deliver the minimum power the card needs, and gives a 600W cable for a 4090 as an example.  For the RTX 5080 Founders Edition, NVIDIA lists an 850 W power supply as the minimum, with either one 450 W or greater PCIe Gen 5 16-pin cable or at least three PCIe 8-pin cables on its adapter.  For sizing a whole system, see our guide to [what PSU wattage you need for a gaming PC](/power/psu-wattage-for-gaming-pc). "
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Before you plug in: checklist",
+          "id": "before-you-plug-in-checklist"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Check your card's own guide for the cable it needs: for the RTX 5080 Founders Edition that is one 450 W or greater 16-pin cable, or at least three 8-pin cables on the included adapter.",
+            "For the RTX 5080 Founders Edition, NVIDIA says to use only the included NVIDIA power connector adapter.",
+            "For the RTX 5080 Founders Edition, NVIDIA recommends plugging the adapter into the graphics card first.",
+            "NVIDIA's RTX 5080 Founders Edition guide says to make sure the plug is fully inserted and seated flush against the power receptacle.",
+            "Make sure the power supply's rating meets the card's minimum.",
+            "Check the rest of the upgrade too, with our [graphics card upgrade checklist](/gpu/graphics-card-upgrade-fit-power-checklist) and [new graphics card in an older motherboard](/gpu/new-graphics-card-old-motherboard-pcie-compatibility)."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[Corsair: Evolving Standards: 12VHPWR and 12V-2x6](https://www.corsair.com/us/en/explorer/diy-builder/power-supply-units/evolving-standards-12vhpwr-and-12v-2x6/)",
+            "[Corsair: Will my 12VHPWR cable work with 12V-2x6?](https://www.corsair.com/us/en/explorer/diy-builder/power-supply-units/will-my-12vhpwr-cable-work-with-12v-2x6/)",
+            "[Corsair: Do I need an ATX 3.1 PSU for a 50-series GPU?](https://www.corsair.com/us/en/explorer/diy-builder/power-supply-units/do-i-need-a-an-atx-31-psu-for-a-50-series-gpu-or-is-atx-30-ok/)",
+            "[NVIDIA: GeForce RTX 5080 Founders Edition quick start guide](https://www.nvidia.com/content/geforce-gtx/GeForce_RTX_5080_User_Guide_Rev1.pdf)"
+          ]
+        }
+      ],
+      "author_id": "beb67239-148d-5ce0-afe7-39083c45382a",
+      "category_id": "0a8569e7-44f1-51ba-a45f-9a3944bd6e1d",
+      "tags": [
+        "power-supply",
+        "12v-2x6",
+        "graphics-cards",
+        "compatibility"
+      ],
+      "publish_date": "2026-10-14T02:26:30Z",
+      "updated_date": null,
+      "featured": false,
+      "trending": false,
+      "editor_choice": false,
+      "review_score": null,
+      "review_product": null,
+      "seo_title": "12V-2x6 vs 12VHPWR: Do You Need a New PSU? | Rigwise",
+      "seo_description": "What changed from 12VHPWR to 12V-2x6, whether your existing cable and ATX 3.0 power supply still work, and what to check before you plug in.",
+      "canonical_url": null,
+      "social_image": "/images/articles/12v-2x6-vs-12vhpwr-new-power-supply-social.png",
+      "reading_time": 3,
+      "created_at": "2026-10-14T02:26:30Z"
     }
   ],
   "deals": [],
