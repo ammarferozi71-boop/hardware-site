@@ -1663,94 +1663,149 @@
     },
     {
       "id": "79da7ad3-8faa-40af-a49d-ad02d414c55e",
-      "title": "Will a New Graphics Card Work in an Older Motherboard? PCIe 3.0, 4.0 and 5.0 Explained",
+      "title": "Will a PCIe 5.0 Graphics Card Work in a PCIe 4.0 or 3.0 Motherboard? Speed Cost for x16 and x8 Cards",
       "slug": "new-graphics-card-old-motherboard-pcie-compatibility",
-      "excerpt": "A PCIe 5.0 graphics card can be used in a PCIe 4.0 slot, and Corsair says it could be used in PCIe 3.0 too. What is known, what is not, and what to check.",
+      "excerpt": "A PCIe 5.0 graphics card works in a PCIe 4.0 or 3.0 slot. In 2025 tests, an x16 RTX 5090 lost 1-4% on PCIe 3.0; an x8 RTX 5060 Ti 8 GB lost more in some games.",
       "hero_image": "/images/articles/new-graphics-card-old-motherboard-pcie-compatibility-hero.webp",
-      "hero_image_alt": "Card summarising Corsair's explainer on a PCIe 5.0 graphics card in an older board: in PCIe 4.0 it works with about 1% less performance, Corsair's figure for Nvidia's latest cards from testing it does not name; in PCIe 3.0 it can be used with no figure given, and the processor would likely be the bigger limit",
-      "hero_image_caption": "Graphic: Rigwise, drawn from the Corsair facts on this page",
+      "hero_image_alt": "Rigwise graphic: a PCIe 5.0 graphics card works in older slots; RTX 5090 (x16) about equal on PCIe 4.0 and 1-4% behind on PCIe 3.0; RTX 5060 Ti 8 GB (x8) about 27% slower on PCIe 3.0 in Dragon Age",
+      "hero_image_caption": "Graphic: Rigwise, drawn from Intel, GamersNexus (Feb 2025) and TechSpot (Jun 2025) figures on this page",
       "body": [
         {
           "type": "paragraph",
-          "text": "**Yes: a PCIe 5.0 graphics card can be used in a PCIe 4.0 motherboard, because the physical connection has not changed between generations, according to Corsair's explainer on the question.**  Corsair says the same card could also be used in a PCIe 3.0 motherboard, though it gives no figure for how much speed that costs. "
+          "text": "As of 15 Oct 2026."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Yes: a PCIe 5.0 graphics card goes into a PCIe 4.0 or PCIe 3.0 motherboard, because Intel states that \"every generation of PCIe is backwards compatible.\"** The speed cost differs between the two dated tests below: one of a card using 16 lanes, one of a card limited to 8 lanes."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "The short answer by slot generation",
-          "id": "the-short-answer-by-slot-generation"
+          "text": "Why lane count matters: bandwidth by slot",
+          "id": "why-lane-count-matters-bandwidth-by-slot"
         },
         {
           "type": "paragraph",
-          "text": "This table covers a current PCIe 5.0 graphics card in each slot generation. Every statement about PCIe 4.0 and 3.0 in it is Corsair's, a vendor, and none of it is a test of ours. "
+          "text": "Each step down in PCIe generation halves the bandwidth, and so does a card using 8 lanes instead of 16. TechSpot gives these bi-directional figures, and Intel gives the transfer rates."
         },
         {
           "type": "table",
           "headers": [
-            "Your motherboard's slot",
-            "Does a PCIe 5.0 card work?",
-            "What Corsair says about speed"
+            "Slot generation",
+            "Transfer rate (Intel)",
+            "Bandwidth with 16 lanes (TechSpot)",
+            "Bandwidth with 8 lanes (TechSpot)"
           ],
           "rows": [
             [
-              "**PCIe 5.0**",
-              "Yes, the card and slot are the same generation",
-              "Not applicable"
+              "PCIe 5.0",
+              "32 GT/s",
+              "128 GB/s",
+              "64 GB/s"
             ],
             [
-              "**PCIe 4.0**",
-              "Yes, the physical connection is the same",
-              "About 1% lower with Nvidia's latest cards, from testing Corsair does not name"
+              "PCIe 4.0",
+              "16 GT/s",
+              "64 GB/s",
+              "32 GB/s"
             ],
             [
-              "**PCIe 3.0**",
-              "Corsair says it could be used",
-              "No figure given; Corsair says the processor would likely be the bigger limit"
+              "PCIe 3.0",
+              "8 GT/s",
+              "32 GB/s",
+              "16 GB/s"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "x16 card: RTX 5090 (GamersNexus, 13 Feb 2025)",
+          "id": "x16-card-rtx-5090-gamersnexus-13-feb-2025"
+        },
+        {
+          "type": "paragraph",
+          "text": "GamersNexus ran one RTX 5090 on a Ryzen 7 9800X3D test bench, in a slot wired for 16 lanes, at PCIe 5.0, 4.0 and 3.0. It found Gen4 x16 and Gen5 x16 \"about equal,\" and observed 1-4% between Gen5 and Gen3."
+        },
+        {
+          "type": "paragraph",
+          "text": "Selected per-game figures:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Game and resolution",
+            "What GamersNexus reports"
+          ],
+          "rows": [
+            [
+              "Black Myth: Wukong, 1080p",
+              "Gen5 about 4.2% ahead of Gen3 and 1.7% ahead of Gen4"
+            ],
+            [
+              "Black Myth: Wukong, 4K",
+              "Gen5 2.9% ahead of Gen3"
+            ],
+            [
+              "F1 24, 4K",
+              "Gen5 and Gen4 basically tied; the fastest of the three led Gen3 by 2%"
+            ],
+            [
+              "Resident Evil 4, 4K",
+              "1.2% from Gen3 to Gen5"
+            ],
+            [
+              "Dying Light 2, 1440p",
+              "216.1 FPS average at Gen5, 215.5 at Gen4, 215.4 at Gen3"
             ]
           ]
         },
         {
           "type": "paragraph",
-          "text": "Source for the PCIe 4.0 and 3.0 rows: Corsair's explainer, which shows no publication date. "
+          "text": "The largest Gen5-over-Gen4 gap among the results quoted here was 1.7%, and the largest Gen5-over-Gen3 gap was about 4.2%, both in Black Myth: Wukong at 1080p."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Why an older slot still takes a newer card",
-          "id": "why-an-older-slot-still-takes-a-newer-card"
+          "text": "x8 card: RTX 5060 Ti 8 GB (TechSpot, 28 Jun 2025)",
+          "id": "x8-card-rtx-5060-ti-8-gb-techspot-28-jun-2025"
         },
         {
           "type": "paragraph",
-          "text": "The physical connection has not changed between PCIe generations, which is why a PCIe 5.0 card can go into a PCIe 4.0 motherboard.  Graphics cards typically use 16 lanes. "
+          "text": "TechSpot notes that the RTX 5060 Ti \"is limited to just 8 lanes,\" and tested it on a 9800X3D system with a focus on upscaled 1440p. Its results for the 8 GB card on each slot generation:"
         },
         {
-          "type": "heading",
-          "level": 2,
-          "text": "How much speed do you lose?",
-          "id": "how-much-speed-do-you-lose"
-        },
-        {
-          "type": "paragraph",
-          "text": "**PCIe 4.0:** Corsair puts the cost of moving from PCIe 5.0 to 4.0 at about 1% with Nvidia's latest cards.  It cites testing for that number but does not name the test or who ran it, so treat it as a vendor's summary and not a measured result you can look up. "
-        },
-        {
-          "type": "paragraph",
-          "text": "**PCIe 3.0:** there is no figure. Corsair gives PCIe 3.0 a single statement: the card could be used, and the processor would likely be the bigger limit.  In plain terms, Corsair expects the processor in a PCIe 3.0 system to hold it back more than the slot does. "
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "What our source does not cover",
-          "id": "what-our-source-does-not-cover"
-        },
-        {
-          "type": "list",
-          "items": [
-            "**No performance figure for PCIe 3.0.** The source we rely on gives none, so this page does not give one either.",
-            "**Nothing on cards that use 8 lanes.** The source describes graphics cards as typically using 16 lanes and says nothing about cards that use fewer.",
-            "**No named test.** The 1% figure for PCIe 4.0 comes with no named test source.",
-            "**No chip-maker statement.** Everything here comes from one vendor page, not from Nvidia, AMD or Intel."
+          "type": "table",
+          "headers": [
+            "Game",
+            "What TechSpot reports for the 8 GB card"
+          ],
+          "rows": [
+            [
+              "Dragon Age: The Veilguard",
+              "27 fps average on PCIe 3.0; moving from PCIe 3.0 to PCIe 4.0 improved average frame rate by 22%; PCIe 5.0 brought a further 12%"
+            ],
+            [
+              "Indiana Jones and the Great Circle",
+              "Switching to PCIe 4.0 or 5.0 \"makes little difference\""
+            ]
           ]
+        },
+        {
+          "type": "paragraph",
+          "text": "In loss terms, our calculation from TechSpot's Dragon Age figures, taking the \"further 12%\" as measured from the PCIe 4.0 result: PCIe 3.0 gave about 1 / (1.22 × 1.12) ≈ 73% of the PCIe 5.0 frame rate, or about 27% slower."
+        },
+        {
+          "type": "paragraph",
+          "text": "TechSpot compared the 8 GB card on all three slot generations with the 16 GB card running on PCIe 3.0. In Dragon Age, the 16 GB card averaged 66 fps on PCIe 3.0, against 27 fps for the 8 GB card on the same slot."
+        },
+        {
+          "type": "paragraph",
+          "text": "TechSpot ties the losses to video memory: \"When VRAM capacity is not exceeded, the PCIe mode has little impact on performance,\" while \"exceeding VRAM capacity results in significantly worse performance when using PCI Express 4.0 or 3.0 compared to PCIe 5.0.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "GamersNexus also comments on cards with fewer lanes: it says a Gen4 x4 card socketed into a Gen3 slot is \"significantly\" hampered, and that this \"isn't a problem on the 5090 since it's fully wired for x16.\""
         },
         {
           "type": "heading",
@@ -1761,21 +1816,39 @@
         {
           "type": "list",
           "items": [
-            "**Which slot generation your motherboard has.** Look it up in the motherboard's manual or specification page, then use the table above to see where you stand.",
-            "**Your processor's age.** On a PCIe 3.0 board, Corsair expects the processor to be the bigger limit, so a new card alone may not give you the jump you are paying for.",
-            "**Your power supply.** Corsair's page tells readers to check theirs before fitting a new card.  Our guide to [power supply wattage for a gaming PC](/power/psu-wattage-for-gaming-pc) covers how.",
-            "**Space, cables and display connections.** These decide whether the card physically goes in and connects, and they are covered in our [graphics card upgrade checklist](/gpu/graphics-card-upgrade-fit-power-checklist)."
+            "**Your board's slot generation.** Look it up in the motherboard manual or specification page, then find your row in the bandwidth table above.",
+            "**How many lanes the card uses.** Check the card maker's specification page: MSI's page for the GeForce RTX 5060 Ti 8G SHADOW 2X PLUS, for example, lists its interface as \"PCI Express® Gen 5 x16 (uses x8).\"",
+            "**Which slot you use.** Intel notes that graphics cards usually go in the top x16 slot, \"as it has the most bandwidth.\""
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Should the slot stop you from upgrading?",
-          "id": "should-the-slot-stop-you-from-upgrading"
+          "text": "Verdict by card and slot",
+          "id": "verdict-by-card-and-slot"
         },
         {
-          "type": "paragraph",
-          "text": "On a PCIe 4.0 board, no: going by Corsair's figure the difference is about 1%.  On a PCIe 3.0 board Corsair points to the processor, not the slot, as the likely bigger limit.  If you are on PCIe 3.0, look at the processor first and decide whether the card or the whole platform is the upgrade you need."
+          "type": "list",
+          "items": [
+            "**RTX 5090 (x16) in a PCIe 4.0 slot:** about equal to PCIe 5.0 in the GamersNexus test.",
+            "**RTX 5090 (x16) in a PCIe 3.0 slot:** 1-4% behind PCIe 5.0 in the same test.",
+            "**RTX 5060 Ti 8 GB (8 lanes) in a PCIe 3.0 or 4.0 slot:** TechSpot found \"significantly worse performance\" than on PCIe 5.0 once video memory capacity is exceeded, and little impact when it is not."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Related guides",
+          "id": "related-guides"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[Before a GPU upgrade: case clearance, power and connections](/gpu/graphics-card-upgrade-fit-power-checklist)",
+            "[What power supply wattage a gaming PC needs](/power/psu-wattage-for-gaming-pc)",
+            "[12V-2x6 vs 12VHPWR: does a new card need a new power supply?](/power/12v-2x6-vs-12vhpwr-new-power-supply)",
+            "[How to tell if your processor is holding back your games](/cpu/cpu-bottleneck-explained)"
+          ]
         },
         {
           "type": "heading",
@@ -1786,28 +1859,33 @@
         {
           "type": "list",
           "items": [
-            "[Corsair, Does a PCIe 5.0 GPU work in a PCIe 4.0 motherboard?](https://www.corsair.com/ch/en/explorer/gamer/gaming-pcs/does-a-pcie-50-gpu-work-in-a-pcie-40-motherboard/)"
+            "[GamersNexus, NVIDIA RTX 5090 PCIe 5.0 vs. 4.0 vs. 3.0 x16 Scaling Benchmarks (13 Feb 2025)](https://gamersnexus.net/gpus/nvidia-rtx-5090-pcie-50-vs-40-vs-30-x16-scaling-benchmarks)",
+            "[TechSpot, Nvidia RTX 5060 Ti 8GB vs. 16GB Tested Across PCIe 3.0, 4.0 and 5.0 (28 Jun 2025)](https://www.techspot.com/review/3004-nvidia-rtx-5060-ti-pcie-benchmark/)",
+            "[Intel, What Are PCIe 4.0 and 5.0?](https://www.intel.com/content/www/us/en/gaming/resources/what-is-pcie-4-and-why-does-it-matter.html)",
+            "[MSI, GeForce RTX 5060 Ti 8G SHADOW 2X PLUS specification](https://de.msi.com/Graphics-Card/GeForce-RTX-5060-Ti-8G-SHADOW-2X-PLUS/Specification)"
           ]
         }
       ],
       "author_id": "beb67239-148d-5ce0-afe7-39083c45382a",
       "category_id": "d6fe093a-1ff2-5c8e-bd99-4aaf07def781",
       "tags": [
-        "nvidia",
+        "pcie",
+        "graphics-card",
+        "motherboard",
         "upgrades"
       ],
       "publish_date": "2026-10-11T12:28:06Z",
-      "updated_date": null,
+      "updated_date": "2026-10-15T07:16:25Z",
       "featured": false,
       "trending": false,
       "editor_choice": false,
       "review_score": null,
       "review_product": null,
-      "seo_title": "New Graphics Card in an Older Motherboard: PCIe 3.0, 4.0, 5.0",
-      "seo_description": "A PCIe 5.0 graphics card can be used in a PCIe 4.0 slot, and Corsair says it could be used in PCIe 3.0 too. What is known, what is not, and what to check.",
+      "seo_title": "PCIe 5.0 GPU in a PCIe 4.0 or 3.0 Slot: x16 vs x8 Cards | Rigwise",
+      "seo_description": "A PCIe 5.0 graphics card works in a PCIe 4.0 or 3.0 slot. In 2025 tests, an x16 RTX 5090 lost 1-4% on PCIe 3.0; an x8 RTX 5060 Ti 8 GB lost more in some games.",
       "canonical_url": null,
       "social_image": "/images/articles/new-graphics-card-old-motherboard-pcie-compatibility-social.png",
-      "reading_time": 3,
+      "reading_time": 4,
       "created_at": "2026-10-11T12:28:06Z"
     },
     {
