@@ -2401,6 +2401,231 @@
       "social_image": "/images/articles/12v-2x6-vs-12vhpwr-new-power-supply-social.png",
       "reading_time": 3,
       "created_at": "2026-10-14T02:26:30Z"
+    },
+    {
+      "id": "946e23f2-8155-4a70-b104-4428a11b1912",
+      "title": "XMP and EXPO: How to Run Your RAM at Its Rated Speed on ASUS and MSI Boards",
+      "slug": "xmp-expo-how-to-turn-on-ram-rated-speed",
+      "excerpt": "RAM running below its rated speed? What Intel XMP and AMD EXPO are, what to check first, and where ASUS and MSI put the setting, per official sources.",
+      "hero_image": "/images/articles/xmp-expo-how-to-turn-on-ram-rated-speed-hero.webp",
+      "hero_image_alt": "Rigwise graphic: Intel XMP 3.0 is for DDR5, AMD EXPO is for AM5 with DDR5, and ASUS boards use DOCP for XMP kits on AMD boards",
+      "hero_image_caption": "Graphic: Rigwise, drawn from Intel, AMD and ASUS pages cited on this page",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "As of 15 Oct 2026. The board steps on this page cover ASUS and MSI boards, taken from those makers' own guides."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Why your kit runs below the speed on the box",
+          "id": "why-your-kit-runs-below-the-speed-on-the-box"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kingston's FAQ on getting gaming memory \"to run at the advertised speed\" says its FURY/HyperX modules that use XMP/EXPO profiles ship from the factory at JEDEC standard values, and that \"Some systems do not support overclock speeds and latencies upon first installation\". Kingston's Plug-N-Play FURY Beast and Impact modules differ: they ship with \"the advertised overclock speed and latency programmed as the default values\". Intel's XMP page (last modified 24 Apr 2026) says XMP memory \"will first boot with the default JEDEC settings,\" after which the XMP profile can be selected in the BIOS. Corsair describes JEDEC settings as ones that \"prioritize compatibility over performance\"."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kingston's next step is the BIOS: \"The XMP/EXPO profile can then be enabled within the system BIOS\"."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What XMP and EXPO are",
+          "id": "what-xmp-and-expo-are"
+        },
+        {
+          "type": "paragraph",
+          "text": "Intel XMP (Extreme Memory Profile) \"overclocks compatible DDR5/DDR4 memory at higher and optimized speeds — beyond the standard settings,\" per Intel's XMP page (last modified 24 Apr 2026). The profiles are \"preset combinations of speed, timing, and voltage, tested by the manufacturer for stability\"."
+        },
+        {
+          "type": "paragraph",
+          "text": "EXPO stands for AMD Extended Profiles for Overclocking (AMD EXPO). AMD's EXPO page (updated 31 May 2026) says it \"allows user-friendly memory-overclocking support\" and was \"created for AMD Ryzen processors on socket AM5\" for \"easy DDR5 memory overclocking\"."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Profile names at a glance",
+          "id": "profile-names-at-a-glance"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Name",
+            "Where it appears",
+            "What that page says"
+          ],
+          "rows": [
+            [
+              "XMP 3.0",
+              "Intel's XMP page",
+              "\"Designed specifically for DDR5\""
+            ],
+            [
+              "XMP 2.0",
+              "Intel's XMP page",
+              "\"For DDR4\"; \"supports 2 profiles\""
+            ],
+            [
+              "EXPO",
+              "AMD's EXPO page",
+              "Created for Ryzen processors on socket AM5, for DDR5 memory overclocking"
+            ],
+            [
+              "DOCP",
+              "ASUS BIOS, per ASUS's support FAQ",
+              "In the Ai Overclock Tuner item, the setting for an EXPO kit on an Intel board, and for an XMP kit on an AMD board"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Intel's XMP page (last modified 24 Apr 2026) says \"Z and B series motherboards have Intel XMP memory overclocking capability\" and \"Intel Core Ultra and Core K-series desktop processors are compatible with Intel XMP\"."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Before you enable it: a checklist",
+          "id": "before-you-enable-it-a-checklist"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Check that your kit has a profile.** AMD's EXPO page (updated 31 May 2026) has a compatibility list that \"shows whether each kit supports the AMD EXPO Technology overclocking memory standard for DDR5\". Intel's XMP page (last modified 24 Apr 2026) says to check whether the module \"is Intel XMP certified\".",
+            "**Know what \"Certified\" and \"Ready\" mean.** XMP Certified DIMMs \"have been verified to work by Intel on specific model motherboards,\" while XMP Ready DIMMs \"have been tested at the memory manufacturer\" but \"have not been submitted to Intel,\" per Kingston.",
+            "**Confirm the motherboard supports it.** Intel's XMP page says to confirm compatibility \"with the manufacturer\" of the motherboard. Kingston adds: \"check the specific motherboard's Qualified Vendor List\".",
+            "**Confirm the processor supports the speed.** Kingston: \"check your processor's documentation to make sure it supports the speed of the memory you're installing\".",
+            "**Laptop or prebuilt PC?** Intel's XMP page: \"For laptops or your OEM (Original Equipment Manufacturer) PC, contact the manufacturer\".",
+            "**Know how to undo it.** Set BIOS memory settings to \"auto\" and/or \"clear the CMOS to return it to default settings,\" per Kingston.",
+            "**Read the warranty terms first.** See the Intel and AMD wording in the warranty section below."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The basic sequence, from the ASUS and MSI guides",
+          "id": "the-basic-sequence-from-the-asus-and-msi-guides"
+        },
+        {
+          "type": "paragraph",
+          "text": "These steps come from ASUS's and MSI's own guides."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Enter the BIOS at startup: Delete on ASUS boards, DEL on MSI boards. 2. Pick the profile: ASUS's Ai Overclock Tuner item, or MSI's Memory setting in EZ Mode. 3. Press F10: ASUS lists it as the final step, and MSI says it saves the settings and reboots the PC. 4. To go back to default settings: MSI says to restore all settings to their default values in the BIOS, which \"on MSI motherboards\" can be done \"using the F6 key\"; ASUS says \"Please CLRTC to recover BIOS setting\"; Kingston says to set BIOS memory settings to \"auto\" and/or \"clear the CMOS to return it to default settings\"."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Where the setting is, per each board maker's own guide",
+          "id": "where-the-setting-is-per-each-board-makers-own-guide"
+        },
+        {
+          "type": "paragraph",
+          "text": "Menu paths differ between boards. Corsair says \"Your best bet is to check your motherboard manual,\" and that ASUS, ASRock, MSI and Gigabyte \"use similar labels\" with \"enough differences to make things tricky\". Intel's support article (last reviewed 9 Apr 2026) says to \"contact the motherboard vendor or your OEM\"."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Board maker (source)",
+            "Steps the maker gives",
+            "Intel platform setting",
+            "AMD platform setting"
+          ],
+          "rows": [
+            [
+              "ASUS (support FAQ, updated 10 Sep 2026)",
+              "Press Delete for BIOS EZ Mode, press F7 for Advanced Mode, open the Ai Tweaker page, then the Ai Overclock Tuner item; then press F10",
+              "XMP kit: XMP I. EXPO kit: DOCP",
+              "EXPO kit: EXPO I. XMP kit: DOCP"
+            ],
+            [
+              "MSI (blog, 21 Jul 2026)",
+              "Press DEL at startup; in EZ Mode, change the Memory setting from Standard; press F10 to save and reboot; F6 restores default settings",
+              "XMP1",
+              "EXPO1"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "ASUS also lists an \"XMP Tweaked\" option, which it calls \"an aggressive overclocking profile\" with \"no guarantee of stability\"; \"not all ASUS motherboards or RAM kits will support XMP Tweaked\"."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Intel, AMD and Kingston say about stability and warranty",
+          "id": "what-intel-amd-and-kingston-say-about-stability-and-warranty"
+        },
+        {
+          "type": "paragraph",
+          "text": "Intel's XMP page (last modified 24 Apr 2026) says \"Altering the frequency and/or voltage outside of Intel specifications may void the processor warranty\". Intel's support article (last reviewed 9 Apr 2026) says changing clock frequency or voltage \"may void any product warranties\" and can \"reduce stability, security, performance, and life of the processor and other components\"."
+        },
+        {
+          "type": "paragraph",
+          "text": "AMD's EXPO page footnote (page updated 31 May 2026) says that overclocking and/or undervolting AMD processors and memory, including \"altering clock frequencies / multipliers or memory timing / voltage,\" \"to operate outside of AMD's published specifications will void any applicable AMD product warranty, even when enabled via AMD hardware and/or software\". \"This may also void warranties offered by the system manufacturer or retailer,\" and the listed risks include \"failure of or damage to hardware, reduced system performance\"."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kingston warns \"System stability may be compromised by some speeds and configurations\" and \"Overclocking is done at your own risk\". It adds that \"some systems may require premium components (high-end processor models, motherboards, power supplies, and water cooling)\"."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Related guides",
+          "id": "related-guides"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[Which DDR5 speed to buy and what 6000 and CL30 mean](/memory/which-ddr5-speed-to-buy-6000-cl30-explained)",
+            "[RAM upgrade checklist: match the board before choosing a kit](/memory/ram-upgrade-motherboard-compatibility)",
+            "[Two RAM sticks or four: add more or replace the kit](/memory/two-vs-four-ram-sticks-add-or-replace)"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[Intel XMP overview](https://www.intel.com/content/www/us/en/gaming/extreme-memory-profile-xmp.html)",
+            "[Intel support, configuring XMP](https://www.intel.com/content/www/us/en/support/articles/000094616/processors.html)",
+            "[AMD EXPO technology](https://www.amd.com/en/products/processors/technologies/expo.html)",
+            "[Kingston overclocking education](https://www.kingston.com/en/memory/gaming/overclocking-education)",
+            "[Kingston gaming memory support FAQ](https://www.kingston.com/en/support/technical/products/gaming-memory)",
+            "[ASUS motherboard FAQ 1042256](https://www.asus.com/support/faq/1042256/)",
+            "[MSI blog, enabling XMP and EXPO](https://us.msi.com/blog/how-to-speed-up-your-ram-with-overclocking-the-ultimate-guide-to-enabling-xmp-and-expo)",
+            "[Corsair, how to enable XMP/EXPO in BIOS](https://www.corsair.com/eu/hu/explorer/diy-builder/memory/how-to-enable-xmpexpo-in-bios/)"
+          ]
+        }
+      ],
+      "author_id": "beb67239-148d-5ce0-afe7-39083c45382a",
+      "category_id": "a9ce399a-288b-547f-b08b-0cf0f0efdb18",
+      "tags": [
+        "ram",
+        "ddr5",
+        "xmp",
+        "expo",
+        "bios"
+      ],
+      "publish_date": "2026-10-15T07:16:44Z",
+      "updated_date": null,
+      "featured": false,
+      "trending": false,
+      "editor_choice": false,
+      "review_score": null,
+      "review_product": null,
+      "seo_title": "XMP and EXPO: Rated RAM Speed on ASUS and MSI Boards | Rigwise",
+      "seo_description": "RAM running below its rated speed? What Intel XMP and AMD EXPO are, what to check first, and where ASUS and MSI put the setting, per official sources.",
+      "canonical_url": null,
+      "social_image": "/images/articles/xmp-expo-how-to-turn-on-ram-rated-speed-social.png",
+      "reading_time": 5,
+      "created_at": "2026-10-15T07:16:44Z"
     }
   ],
   "deals": [],
