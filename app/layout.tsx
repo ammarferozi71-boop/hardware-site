@@ -1,3 +1,4 @@
+import { safeJsonLd } from '@/lib/structured-data.mjs';
 import './globals.css';
 import type { Metadata } from 'next';
 import Script from 'next/script';
@@ -64,7 +65,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={lexend.variable}>
       <head>
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(orgJsonLd) }} />
       </head>
       <body className="font-sans bg-background text-foreground antialiased">
         <SearchProvider>

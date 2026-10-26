@@ -8,6 +8,7 @@ import { SITE_NAME } from '@/lib/site';
 
 const NAV_ITEMS = [
   { label: 'Graphics cards', href: '/gpu' },
+  { label: 'CPU checker', href: '/tools/cpu-compatibility' },
   { label: 'Processors', href: '/cpu' },
   { label: 'Memory', href: '/memory' },
   { label: 'Storage', href: '/storage' },
