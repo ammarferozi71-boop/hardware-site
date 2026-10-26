@@ -14,6 +14,8 @@ Verification commands: `npm run test:tools`, `npm run lint`, `npm run typecheck`
 
 Dataset: content/decision-tool-data.json contains no invented product facts. The central migration_runner/tool_export.py maps existing shared tool/fact snapshots into private development datasets and rejects retired, stale, conflicting or foreign-site evidence. The exporter is not an activated sync. Confirm dataset sources, freshness policy, scope and actual manufacturer/provider wording before adding records.
 
-The data-dependent tool pages remain noindex until a separately reviewed dataset is available. The Preload converter uses the supplied timestamp and has a canonical URL and sitemap entry. Schema checks, fixture tests and empty-state UI do not prove real-world factual accuracy, rankings or production readiness.
+The data-dependent tool pages remain noindex for this preview candidate. Small sourced datasets are included with seven-day expiry; wider catalog coverage and independent production review remain separate. The Preload converter uses the supplied timestamp and has a canonical URL and sitemap entry. Schema checks, fixture tests and empty-state UI do not prove real-world factual accuracy, rankings or production readiness.
 
 Next activation review: confirm the verified data source; run browser interaction tests using the approved dataset; review deployment settings and rollback; obtain explicit approval before pushing where GitHub triggers a Vercel preview. No site changes are live.
+
+The 26 October continuation adds source-backed pilot records and minute-by-minute expiry rechecks. See content/decision-tool-data.json for scope, source URLs, observation times, expiry and evidence notes.

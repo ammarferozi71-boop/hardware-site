@@ -1,8 +1,18 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {safeJsonLd} from '../lib/structured-data.mjs';
+import {readFileSync} from 'node:fs';
 import {validRecord,editionMatrix,releaseTime,compatibility,comparePlans} from '../lib/decision-tools.mjs';
 const now = new Date('2026-10-26T00:00:00Z');
+test('reviewed dataset keeps source lineage, scope and expiring evidence',()=>{
+ const data=JSON.parse(readFileSync(new URL('../content/decision-tool-data.json',import.meta.url),'utf8'));
+ assert.ok(data.scope);assert.ok(data.records.length>0);
+ for(const record of data.records){
+  assert.ok(validRecord(record,new Date('2026-10-27T00:00:00Z')));
+  assert.equal(validRecord(record,new Date('2026-11-03T00:00:00Z')),false);
+  assert.ok(record.evidence_note);
+ }
+});
 const evidence={status:'confirmed',source_url:'https://manufacturer.test/spec',observed_at:'2026-10-25T00:00:00Z',expires_at:'2026-10-27T00:00:00Z'};
 test('JSON-LD cannot terminate its script element',()=>{
  const value={headline:'</script><script>alert(1)</script>'};const encoded=safeJsonLd(value);

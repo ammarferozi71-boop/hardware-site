@@ -1,8 +1,10 @@
 'use client';
-import {useState} from 'react';
+import {useEffect,useState} from 'react';
 import {compatibility,validRecord,type ToolRecord} from '@/lib/decision-tools.mjs';
 export default function Compatibility({records}:{records:ToolRecord[]}){
-  const available=records.filter(r=>validRecord(r));const cpus=available.filter(r=>r.kind==='cpu');const boards=available.filter(r=>r.kind==='motherboard');
+  const [clock,setClock]=useState<Date|undefined>();
+  useEffect(()=>{const timer=setInterval(()=>setClock(new Date()),60000);return()=>clearInterval(timer);},[]);
+  const available=records.filter(r=>validRecord(r,clock));const cpus=available.filter(r=>r.kind==='cpu');const boards=available.filter(r=>r.kind==='motherboard');
   const [cpu,setCpu]=useState('');const [board,setBoard]=useState('');
   const result=compatibility(cpus.find(c=>c.id===cpu),boards.find(b=>b.id===board));
   return <div className="space-y-6 rounded-xl border bg-card p-6"><p className="text-muted-foreground">Socket matching alone does not establish compatibility. This checker requires a manufacturer CPU support listing and minimum BIOS version.</p>
